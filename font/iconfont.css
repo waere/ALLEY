@@ -1,0 +1,47 @@
+
+@font-face {font-family: "ALLEY";
+  src: url('iconfont.eot?t=1495526602593'); /* IE9*/
+  src: url('iconfont.eot?t=1495526602593#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1495526602593') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1495526602593') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1495526602593#ALLEY') format('svg'); /* iOS 4.1- */
+}
+
+.ALLEY {
+  font-family:"ALLEY" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ALLEY-bofang1:before { content: "\e602"; }
+
+.ALLEY-xiangyoum:before { content: "\eb5b"; }
+
+.ALLEY-search:before { content: "\e61d"; }
+
+.ALLEY-iconfontditudaohang:before { content: "\e630"; }
+
+.ALLEY-meishi:before { content: "\e634"; }
+
+.ALLEY-signopen:before { content: "\e61b"; }
+
+.ALLEY-E-mail:before { content: "\e620"; }
+
+.ALLEY-guhuaicon:before { content: "\e63d"; }
+
+.ALLEY-left:before { content: "\e601"; }
+
+.ALLEY-e-mail:before { content: "\e709"; }
+
+.ALLEY-guhua:before { content: "\e699"; }
+
+.ALLEY-yqf-guhuasvg:before { content: "\e75d"; }
+
+.ALLEY-e-mail1:before { content: "\e606"; }
+
+.ALLEY-guhua1:before { content: "\e600"; }
+
+.ALLEY-bofang:before { content: "\e698"; }
+
