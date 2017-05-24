@@ -4,8 +4,8 @@ body{background: #000;}
   src: url(../font/FZLTCXHJW.woff); /*这里是字体文件路径*/ 
 } 
 .outside-box{
-	position: relative;
-	/*overflow: hidden;*/
+	/*position: relative;*/
+	overflow: hidden;
 }
 .header{
 	position: absolute;
@@ -974,7 +974,7 @@ html, body {
 	}
 	.newssd .news-contbox:nth-child(2),.newssd .news-contbox:nth-child(4){padding: 0;}
 	.newssd .news-contbox .newsimg img{
-		height: 150px;
+		height: 100%;
 		width: 100%;
 	}
 	.newssd .news-contbox .newscont{
