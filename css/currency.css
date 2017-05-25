@@ -1,8 +1,9 @@
 .header{
-	position: relative;
+	position: absolute;
 	/*width: 100%;*/
 	margin-top: 25px;
 	height: 300px;
+	z-index: 100;
 }
 /* 导航部分*/
 .header .nav {

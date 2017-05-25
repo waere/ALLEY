@@ -23,7 +23,7 @@ a:focus{text-decoration: none;}
 
 .outside-box {
 	position: relative;
-	/*background: #000;*/
+	overflow: hidden;
 	width: 100%;	
 }
 .nopd{padding: 0;}
