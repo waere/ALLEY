@@ -111,11 +111,6 @@ function winetab(){
 	})
 }
 // 产品速递
-// function cpsdWidth(){	
-	// if($(window).width()<=600){
-	// 	$('.cpsdlist li').width()=$(window).width()/2;
-	// }
-// }
 	window.onload=function(){
 		var ulWidth=$('.cpsdlist li').outerWidth(true)*4;
 		// console.log(ulWidth);
