@@ -62,7 +62,6 @@ function TakeTab(){
 		console.log($(this).index()/3);
 		$('.takeimg').eq(imgindex).addClass(' currimg').siblings('.takeimg').removeClass(' currimg');
 	});
-	$('.takebox').height($('.takeimg').height());
 }
 
 
@@ -121,6 +120,8 @@ function winetab(){
 		var ulWidth=$('.cpsdlist li').outerWidth(true)*4;
 		// console.log(ulWidth);
 		$('.cpsdlist ul').width(ulWidth);
+		// 采味集获取高度
+		$('.takebox').height($('.takeimg').height());
 	}
 	
 
