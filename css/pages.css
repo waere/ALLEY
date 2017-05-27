@@ -1,0 +1,157 @@
+@font-face { 
+  font-family: futura; /*这里是说明调用来的字体名字*/ 
+  src: url(../font/futuramdbtmedium.ttf); /*这里是字体文件路径*/ 
+}
+/*品味头部*/
+.tasbanner{
+	position: relative;
+	width: 100%;
+}
+.tasbanner img{
+	width: 100%;
+}
+.tasbanconer{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+.tasbanconer h1{
+	font-family: futura;
+	/*font-weight: bold;*/
+	font-size: 80px;
+	color:#fff;
+}
+.tasbanconer a{
+	padding: 25px 0;
+	line-height: 3.5;
+	border-bottom: 2px solid #fff;
+	font-size: 35px;
+	color:#fff;
+}
+
+/*贵州风情*/
+.customs{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	padding: 50px 0;
+}
+.customsswbox{
+	width: 1200px;
+	margin: 0 auto;
+}
+#customs-swiper1{padding-bottom: 50px;}
+#customs-swiper1 .swiper-slide{
+	background: #fff;
+	width: 100%;
+}
+#customs-swiper1 h2{
+	font-family: futura;
+	font-size: 40px;
+	line-height: 1.5;
+	color:#e50045;
+}
+#customs-swiper1 h3{
+	font-size: 30px;
+	line-height: 2;
+	color:#333;
+}
+#customs-swiper1 i:after{
+	display: block;
+	content: "";
+	width: 30px;
+	border:2px solid #333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+#customs-swiper1 p{
+	font-size: 14px;
+	line-height: 2.5;
+}
+#customs-swiper1 .customssw-next,#customs-swiper1 .customssw-prev{
+	position: absolute;
+	bottom: 0;
+	color:#000;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 1;
+}
+#customs-swiper1 .customssw-prev{
+	left: 0;
+}
+#customs-swiper1 .customssw-next{
+	left: 15%;
+}
+#customs-swiper2 .swiper-slide img{
+	width: 100%;
+}
+#customs-swiper1 .swiper-pagination-fraction{
+	font-size: 18px;
+	width: auto;
+	bottom: 7px;
+	line-height: 1;
+	left: 8%;
+}
+
+
+/*响应*/
+@media only screen and (max-width: 1640px){}
+@media screen and (max-width: 1500px) and (min-width: 1100px){
+	/*品味头部*/
+	.tasbanconer {
+	    top: 35%;
+	    left: 30%;
+	}
+	.tasbanconer h1{
+		font-size: 50px;
+	}
+	.tasbanconer a{
+		font-size: 25px;
+		line-height: 2.5;
+		padding: 15px 0;
+	}
+}
+@media screen and (max-width: 990px) and (min-width: 300px){
+/*品味头部*/
+	.tasbanconer{
+		top: auto;
+		bottom: 15%;
+		left: 8%;
+	}
+	.tasbanconer h1{
+		font-size: 26px;
+	}
+	.tasbanconer a{
+		font-size: 20px;
+		line-height: 2.5;
+		padding: 15px 0;
+	}
+/*风情*/
+	.customs{padding: 10px 0 0 0;}
+	.customsswbox{width: 100%;}
+	#customs-swiper1{padding-bottom: 0px;}
+	#customs-swiper1 .swiper-slide{
+		padding: 15px 15px 25px 15px;
+		background: #e8e8e8;
+	}
+	#customs-swiper1 h2{
+		font-size: 20px;
+	}
+	#customs-swiper1 h3{
+		font-size: 16px;
+	}
+	#customs-swiper1 i:after{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 20px;
+	}
+	#customs-swiper1 .customssw-next, #customs-swiper1 .customssw-prev{
+		font-size: 18px;
+	}
+	#customs-swiper1 .swiper-pagination-fraction{
+		font-size: 12px;
+		bottom: 5px;
+		left: 7.5%;
+	}
+}
