@@ -40,23 +40,26 @@
 	width: 1200px;
 	margin: 0 auto;
 }
+.customsswbox .swiper-container{position: relative;}
 #customs-swiper1{padding-bottom: 50px;}
 #customs-swiper1 .swiper-slide{
 	background: #fff;
 	width: 100%;
+	overflow: hidden;
 }
-#customs-swiper1 h2{
+/*sw内容共用样式*/
+.swiper-container h2{
 	font-family: futura;
 	font-size: 40px;
 	line-height: 1.5;
 	color:#e50045;
 }
-#customs-swiper1 h3{
+.swiper-container h3{
 	font-size: 30px;
 	line-height: 2;
 	color:#333;
 }
-#customs-swiper1 i:after{
+.swiper-container i:after{
 	display: block;
 	content: "";
 	width: 30px;
@@ -64,10 +67,11 @@
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
-#customs-swiper1 p{
+.swiper-container p{
 	font-size: 14px;
 	line-height: 2.5;
 }
+/*sw内容共用样式结束*/
 #customs-swiper1 .customssw-next,#customs-swiper1 .customssw-prev{
 	position: absolute;
 	bottom: 0;
@@ -83,9 +87,6 @@
 #customs-swiper1 .customssw-next{
 	left: 15%;
 }
-#customs-swiper2 .swiper-slide img{
-	width: 100%;
-}
 #customs-swiper1 .swiper-pagination-fraction{
 	font-size: 18px;
 	width: auto;
@@ -93,12 +94,191 @@
 	line-height: 1;
 	left: 8%;
 }
+#customs-swiper2 .swiper-slide img{
+	width: 100%;
+}
+
+.cutomssw-tab2{
+	position: absolute;
+	left: 40%;
+	width: 20%;
+	height: 30px;
+	bottom: 5px;
+	z-index: 10;
+	line-height: 1;
+}
+.cutomssw-tab2 .customssw-prev,.cutomssw-tab2 .customssw-next{
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	font-size: 24px;
+	z-index: 15;
+}
+.cutomssw-tab2 .customssw-next{right: 0;}
+#customs-swiper2 .swiper-pagination-fraction{
+	font-size: 18px;	
+	bottom: 4px;
+	color:#fff;
+}
+/*问巷文化*/
+.culture{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	/*padding: 50px 0;*/
+}
+.cultureswbox{
+	width: 100%;
+	position: relative;
+}
+#culture-swiper1{
+	position: absolute;
+	top: 0;
+	left: 18%;
+	z-index: 10;
+	height: 100%;
+	width: 410px;
+}
+#culture-swiper1 .swiper-wrapper{	
+	height: 100%;
+	width: auto;
+}
+#culture-swiper1 .swiper-slide{
+	padding: 30px;
+	background: rgba(237,237,237,.7);
+}
+#culture-swiper2 .swiper-slide img{
+	width: 100%;
+	height: 760px;
+}
+.culturesw-tab1{
+	position: absolute;
+	width: 100px;
+	bottom: 20px;
+	left: 20px;
+	line-height: 1;
+	font-size: 24px;
+	color:#333;
+	z-index: 14;
+}
+.culturesw-tab1 .culturesw-prev,.culturesw-tab1 .culturesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	color:#333;
+	z-index: 15;
+	cursor: pointer;
+}
+.culturesw-tab1 .culturesw-next{right: 0;}
+.culturesw-tab1 .swiper-pagination-fraction{bottom: 4px;}
+.culturesw-tab2{
+	position: absolute;
+	width: 20%;
+	bottom: 20px;
+	left: 40%;
+	line-height: 1;
+	font-size: 18px;
+	color:#fff;
+	z-index: 14;
+}
+.culturesw-tab2 .culturesw-prev,.culturesw-tab2 .culturesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	color:#fff;
+	z-index: 15;
+}
+.culturesw-tab2 .culturesw-next{right: 0;}
+.culturesw-tab2 .swiper-pagination-fraction{bottom: 4px;}
+
+/*问巷环境*/
+.ambient{
+	width: 100%;
+	background: #fff;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.ambientswbox{
+	width: 1200px;
+	margin: 0 auto;
+}
+#ambient-swiper1 {margin-bottom: 30px;}
+#ambient-swiper1 .swiper-slide{
+	background: rgba(237,237,237,1);
+}
+#ambient-swiper1 .ambient-sw1-left{
+	background: #fff;
+}
+#ambient-swiper1 i:after{
+	margin-left: 35px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#ambient-swiper1 p{margin-left: 35px;}
+.ambientsw-tab1{
+	position: absolute;
+	left: 27.5%;
+	bottom: 10px;
+	width: 8%;
+	font-size: 24px;
+	line-height: 1;
+}
+.ambientsw-tab1 .ambientsw-prev,.ambientsw-tab1 .ambientsw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	z-index: 15;
+	cursor: pointer;
+}
+.ambientsw-tab1 .ambientsw-next{right:0;}
+.ambientsw-tab1 .swiper-pagination-fraction{bottom: 4px;}
+#ambient-swiper2 .swiper-slide img{width: 100%;}
+.ambientsw-tab2{
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+	width: 20%;
+	font-size: 18px;
+	line-height: 1;
+	color:#fff;
+	z-index: 14;
+}
+.ambientsw-tab2 .ambientsw-prev,.ambientsw-tab2 .ambientsw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	z-index: 15;
+	cursor: pointer;
+}
+.ambientsw-tab2 .ambientsw-next{right:0;}
+.ambientsw-tab2 .swiper-pagination-fraction{bottom: 4px;}
+
+/*问巷经营*/
+.operate{
+	width: 100%;
+	padding: 20px 0;
+	background: #fff;
+	overflow: hidden;
+}
+.operate .row{margin: 0;}
+.oper-column1 .column1-L{
+	/*height: 475px;*/
+	/*padding: 62px 0;*/
+	background: rgb(237,237,237);
+	overflow: hidden;
+}
+.oper-column1 .column1-L>div{
+	margin-top: 30px;
+	margin-left: 355px;
+}
+.oper-column1 img{width: 100%;height:100%;}
+.oper-column2 img{width: 100%;height:100%;}
 
 
 /*响应*/
 @media only screen and (max-width: 1640px){}
 @media screen and (max-width: 1500px) and (min-width: 1100px){
-	/*品味头部*/
+/*品味头部*/
 	.tasbanconer {
 	    top: 35%;
 	    left: 30%;
@@ -111,6 +291,17 @@
 		line-height: 2.5;
 		padding: 15px 0;
 	}
+/*问巷经营*/
+	.oper-column1 .column1-L>div{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.column1-L h2 {
+    	font-size: 33px;
+    	line-height: 1;
+	}
+	.column1-L h3{font-size: 24px;}
+	.column1-L i:after{margin: 15px 0;}
 }
 @media screen and (max-width: 990px) and (min-width: 300px){
 /*品味头部*/
@@ -128,30 +319,64 @@
 		padding: 15px 0;
 	}
 /*风情*/
-	.customs{padding: 10px 0 0 0;}
+	.customs{padding: 5px 0 0 0;}
 	.customsswbox{width: 100%;}
 	#customs-swiper1{padding-bottom: 0px;}
 	#customs-swiper1 .swiper-slide{
-		padding: 15px 15px 25px 15px;
+		padding: 15px;
 		background: #e8e8e8;
 	}
-	#customs-swiper1 h2{
-		font-size: 20px;
+	.swiper-container h2{font-size: 20px;}
+	.swiper-container h3{font-size: 16px;}
+	.swiper-container p{
+		font-size: 13px;
+		line-height: 2;
 	}
-	#customs-swiper1 h3{
-		font-size: 16px;
-	}
-	#customs-swiper1 i:after{
+	.swiper-container i:after{
 		margin-top: 10px;
 		margin-bottom: 10px;
 		width: 20px;
 	}
-	#customs-swiper1 .customssw-next, #customs-swiper1 .customssw-prev{
+	/*#customs-swiper1 .customssw-next, #customs-swiper1 .customssw-prev{
 		font-size: 18px;
 	}
 	#customs-swiper1 .swiper-pagination-fraction{
 		font-size: 12px;
 		bottom: 5px;
 		left: 7.5%;
+	}*/
+/*问巷文化*/
+	#culture-swiper1{
+		width: 85%;
+		height: auto;
+		left: 7.5%;
+	}
+	#culture-swiper2 .swiper-slide img{height: auto;}
+	#culture-swiper1 .swiper-wrapper{height: auto;}
+	#culture-swiper1 .swiper-slide {padding: 10px;}
+
+/*问巷环境*/
+	.ambient{padding: 0;}
+	.ambientswbox{width: 100%;}
+	#ambient-swiper1{margin-bottom: 0;}
+	#ambient-swiper1 .ambient-sw1-left{
+		background: rgba(237,237,237,1);
+	}
+	#ambient-swiper1 .swiper-slide{
+		padding: 15px;
+	}
+	#ambient-swiper1 i:after{
+		margin: 15px 0;
+	}
+	#ambient-swiper1 p{
+		margin-left: 0;
+		width: 100%;
+	}
+
+/*问巷经营*/
+	.operate{padding: 5px 0;}
+	.oper-column1 .column1-L{padding: 20px 20px 0 20px;}
+	.oper-column1 .column1-L>div{
+		margin: 0;
 	}
 }
