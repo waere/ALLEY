@@ -275,6 +275,188 @@
 .oper-column2 img{width: 100%;height:100%;}
 
 
+/*问巷美食*/
+.thispagenav{
+	width: 100%;
+	background: #e5e5e5;
+	overflow: hidden;
+	padding: 50px 0;
+}
+.thispagenav .pagenav-list{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pagenav-list ul{
+	overflow: hidden;
+	text-align: center;	
+}
+.pagenav-list ul li a{
+	display: block;
+	font-size: 20px;
+	color:#000;
+}
+.pagenav-list ul li a:hover{color:#e50044;}
+.pagenav-list ul li b{
+	font-weight: normal;
+	font-size: 130px;	
+	line-height: 1.2;
+}
+.pagenav-list ul li span{
+	font-size: 22px;
+	font-family: futura;
+}
+/*中式佳肴-醇美绿饮*/
+.swiper-slide img{width: 100%;}
+.cuisine,.greentea{
+	width: 100%;
+	padding: 50px 0;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.cuisinesw-tab1,.greenteasw-tab1{
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+	width: 15%;
+	font-size: 24px;
+	line-height: 1;
+}
+.cuisinesw-tab1 .cuisinesw-prev,.cuisinesw-tab1 .cuisinesw-next,
+.greenteasw-tab1 .greenteasw-prev,.greenteasw-tab1 .greenteasw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	z-index: 15;
+	cursor: pointer;
+}
+.cuisinesw-tab1 .cuisinesw-next,.greenteasw-tab1 .greenteasw-next{right:0;}
+.cuisinesw-tab1 .swiper-pagination-fraction,
+.greenteasw-tab1 .swiper-pagination-fraction{bottom: 4px;}
+.cuisinesw-tab2,.greenteasw-tab2{
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+	width: 20%;
+	font-size: 20px;
+	line-height: 1;
+	color:#fff;
+}
+.cuisinesw-tab2 .cuisinesw-prev,.cuisinesw-tab2 .cuisinesw-next,
+.greenteasw-tab2 .greenteasw-prev,.greenteasw-tab2 .greenteasw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	z-index: 15;
+	cursor: pointer;
+}
+.cuisinesw-tab2 .cuisinesw-next,.greenteasw-tab2 .greenteasw-next{right:0;}
+.cuisinesw-tab2 .swiper-pagination-fraction,
+.greenteasw-tab2 .swiper-pagination-fraction{bottom: 4px;}
+
+/*时尚咖啡*/
+.coffee{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.coffeeswbox{width: 100%}
+#coffee-swiper1 .swiper-slide{
+	padding:0 50px;
+}
+.coffeesw-tab1{
+	position: absolute;
+	left: 5%;
+	bottom: 10px;
+	width: 15%;
+	font-size: 24px;
+	line-height: 1;
+}
+.coffeesw-tab1 .coffeesw-prev,.coffeesw-tab1 .coffeesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	z-index: 15;
+	cursor: pointer;
+}
+.coffeesw-tab1 .coffeesw-next{right:0;}
+.coffeesw-tab1 .swiper-pagination-fraction{bottom: 4px;}
+.coffeesw-tab2{
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+	width: 20%;
+	font-size: 20px;
+	line-height: 1;
+	color:#fff;
+}
+.coffeesw-tab2 .coffeesw-prev,.coffeesw-tab2 .coffeesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	z-index: 15;
+	cursor: pointer;
+}
+.coffeesw-tab2 .coffeesw-next{right:0;}
+.coffeesw-tab2 .swiper-pagination-fraction{bottom: 4px;}
+
+/*问巷美酒*/
+.foodwine{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+#foodwine-swiper1{
+	position: absolute;
+	z-index: 10;
+	height: 100%;
+	left:50%;
+}
+#foodwine-swiper1 .swiper-slide{
+	background: rgba(255,255,255,.8);
+	padding: 15px 35px;
+}
+.foodwinesw-tab1{
+	position: absolute;
+	left: 5%;
+	bottom: 10px;
+	width: 15%;
+	font-size: 24px;
+	line-height: 1;
+}
+.foodwinesw-tab1 .foodwinesw-prev,.foodwinesw-tab1 .foodwinesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 30px;
+	z-index: 15;
+	cursor: pointer;
+}
+.foodwinesw-tab1 .foodwinesw-next{right:0;}
+.foodwinesw-tab1 .swiper-pagination-fraction{bottom: 4px;}
+.foodwinesw-tab2{
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+	width: 20%;
+	font-size: 20px;
+	line-height: 1;
+	color:#fff;
+}
+.foodwinesw-tab2 .foodwinesw-prev,.foodwinesw-tab2 .foodwinesw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	z-index: 15;
+	cursor: pointer;
+}
+.foodwinesw-tab2 .foodwinesw-next{right:0;}
+.foodwinesw-tab2 .swiper-pagination-fraction{bottom: 4px;}
+
+
+
+
 /*响应*/
 @media only screen and (max-width: 1640px){}
 @media screen and (max-width: 1500px) and (min-width: 1100px){
@@ -302,6 +484,16 @@
 	}
 	.column1-L h3{font-size: 24px;}
 	.column1-L i:after{margin: 15px 0;}
+
+/*问巷美食-中式佳肴-咖啡-绿饮*/
+	.foodsw h2{
+		font-size: 36px;
+		line-height: 1;
+	}
+	.foodsw h2 br{display: none;}
+	.foodsw h3{font-size: 26px;}
+	.foodsw i:after{margin: 10px 0;}
+
 }
 @media screen and (max-width: 990px) and (min-width: 300px){
 /*品味头部*/
@@ -337,14 +529,7 @@
 		margin-bottom: 10px;
 		width: 20px;
 	}
-	/*#customs-swiper1 .customssw-next, #customs-swiper1 .customssw-prev{
-		font-size: 18px;
-	}
-	#customs-swiper1 .swiper-pagination-fraction{
-		font-size: 12px;
-		bottom: 5px;
-		left: 7.5%;
-	}*/
+
 /*问巷文化*/
 	#culture-swiper1{
 		width: 85%;
@@ -378,5 +563,26 @@
 	.oper-column1 .column1-L{padding: 20px 20px 0 20px;}
 	.oper-column1 .column1-L>div{
 		margin: 0;
+	}
+
+/*问巷美食*/
+	.thispagenav .pagenav-list{width: 100%;}
+	.pagenav-list ul li a{font-size: 1.2rem;padding: 10px 0;}
+	.pagenav-list ul li b{font-size: 80px;}
+	.pagenav-list ul li span{font-size: 1.2rem;}
+/*中式佳肴-咖啡-绿饮-美酒*/
+	.cuisine{padding: 0;}
+	#cuisine-swiper1 .swiper-slide,#coffee-swiper1 .swiper-slide,#greentea-swiper1 .swiper-slide{
+		background: rgb(237,237,237);
+		padding: 20px;
+	}
+	.coffee{padding: 10px 0;}
+	.greentea{padding: 0;}
+	/*美酒*/
+	.foodwine{padding: 10px 0;}
+	#foodwine-swiper1{
+		height: auto;
+		top:35%;
+		left:0;
 	}
 }

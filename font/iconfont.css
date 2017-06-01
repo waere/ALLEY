@@ -1,10 +1,10 @@
 
 @font-face {font-family: "ALLEY";
-  src: url('iconfont.eot?t=1495878864332'); /* IE9*/
-  src: url('iconfont.eot?t=1495878864332#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1495878864332') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1495878864332') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1495878864332#ALLEY') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1496300546704'); /* IE9*/
+  src: url('iconfont.eot?t=1496300546704#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496300546704') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496300546704') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496300546704#ALLEY') format('svg'); /* iOS 4.1- */
 }
 
 .ALLEY {
@@ -48,4 +48,14 @@
 .ALLEY-bofang:before { content: "\e698"; }
 
 .ALLEY-qianjin-copy:before { content: "\eb5c"; }
+
+.ALLEY--x:before { content: "\e608"; }
+
+.ALLEY--x1:before { content: "\e609"; }
+
+.ALLEY--x2:before { content: "\e60a"; }
+
+.ALLEY--x3:before { content: "\e60b"; }
+
+.ALLEY-u4:before { content: "\e60c"; }
 
