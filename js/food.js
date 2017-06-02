@@ -135,3 +135,43 @@ var foodwinesw2 = new Swiper('#foodwine-swiper2',{
 });
 foodwinesw1.params.control = foodwinesw2;
 foodwinesw2.params.control = foodwinesw1;
+
+
+//底部图片展示
+ 
+var bottomimgsw2 = new Swiper('#bottomimg-container2',{
+watchSlidesProgress : true,
+watchSlidesVisibility : true,
+prevButton:'.bottomimgsw-prev',
+nextButton:'.bottomimgsw-next',
+slidesPerView : 4,
+onTap: function(){
+			bottomimgsw1.slideTo( bottomimgsw2.clickedIndex)
+		}
+});
+var bottomimgsw1 = new Swiper('#bottomimg-container1',{
+
+onSlideChangeStart: function(){
+			updateNavPosition()
+		}
+
+});
+
+function updateNavPosition(){
+	$('#bottomimg-container2 .active-nav').removeClass('active-nav')
+	var activeNav = $('#bottomimg-container2 .swiper-slide').eq(bottomimgsw1.activeIndex).addClass('active-nav');
+
+
+	if (!activeNav.hasClass('swiper-slide-visible')) {
+		console.log(1);
+		if (activeNav.index()>bottomimgsw2.activeIndex) {
+			console.log(2);
+			var thumbsPerNav = Math.floor(bottomimgsw2.width/activeNav.width())-1;
+			bottomimgsw2.slideTo(activeNav.index()-thumbsPerNav)
+		}
+		else {
+			console.log(3);
+			bottomimgsw2.slideTo(activeNav.index())
+		}	
+	}
+}

@@ -454,6 +454,176 @@
 .foodwinesw-tab2 .foodwinesw-next{right:0;}
 .foodwinesw-tab2 .swiper-pagination-fraction{bottom: 4px;}
 
+/*底部图片展示*/
+.bottomimg{
+	width: 100%;
+	padding: 50px 0;
+	background: #fff;
+	overflow: hidden;
+}
+.bottomimg .showbox{
+	width: 1200px;
+	margin:0 auto;
+}
+#bottomimg-container1{margin-bottom: 15px;}
+#bottomimg-container2 .swiper-slide{padding: 0 3px;}
+.active-nav{opacity: .6;}
+.bottomimgsw-prev,.bottomimgsw-next{
+	position: absolute;
+	top:30%;
+	cursor:pointer;
+	color:#fff;
+	font-size: 25px;
+	z-index: 10;
+	line-height: 1;
+	background: #e50045;
+}
+.bottomimgsw-prev{left:0;}
+.bottomimgsw-next{right:0;}
+
+/*巷弄生活*/
+.lifelist{
+	width: 100%;
+	padding: 50px 0;
+	background: #e5e5e5;
+	overflow: hidden;
+}
+.lifelist .lifeliswbox{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+#lifelist-swiper1{
+	width: 100%;
+}
+#lifelist-swiper1 .swiper-slide{
+	padding: 7px 10px;
+}
+.lifesummary{
+	background: #fff;
+	cursor: pointer;
+}
+.lifesummary .summary-cont{
+	padding: 15px;
+}
+.lifesummary .summary-cont h3{
+	font-size: 16px;
+	line-height: 1.2;
+	margin-left: -10px;
+}
+.lifesummary .summary-cont p{
+	margin-top: 5px;
+	line-height: 2;
+	font-size: 12px;
+}
+.lifesummary .summary-cont>div{
+	position: relative;
+	margin-top: 20px;
+	line-height: 1;
+}
+.lifesummary .summary-cont>div span{font-size: 12px;}
+.lifesummary .summary-cont>div span em{
+	vertical-align: middle;
+	font-size: 18px;
+}
+.lifesummary .summary-cont>div time{
+	position: absolute;
+	top:2px;
+	right:0;
+	color:#999;
+}
+.lifelistsw-tab1{
+	width: 100%;
+	position: absolute;
+	top:38%;
+	z-index: 10;
+}
+.lifelistsw-prev,.lifelistsw-next{
+	position: absolute;
+	cursor: pointer;
+	font-size: 80px;
+	color: #000;
+}
+.lifelistsw-prev{left:-70px;}
+.lifelistsw-next{right:-70px;}
+/*巷弄生活活动详细内容*/
+.lifedetails{
+	width: 100%;
+	padding: 50px 0;
+	background: #fff;
+	overflow:hidden;
+}
+.lifedetails .lifed-cont{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.lifed-cont h2{
+	font-size: 40px;
+	font-family: futura;
+	color:#e50045;
+}
+.lifed-cont-title{
+	position: relative;
+	width: 100%;
+	margin: 30px 0;
+}
+.lifed-cont-title h3{
+	font-weight: normal;
+	font-size: 28px;
+	color:#666;
+	margin-left: -10px;
+}
+.lifed-cont-title>div{
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+.lifed-cont-title>div span{
+	font-size: 12px;
+}
+.lifed-cont-title>div span em{
+	font-size: 16px;
+	vertical-align: middle;
+}
+.lifed-cont-title>div time{
+	font-size: 14px;
+	color:#999;
+	margin-left: 50px;
+}
+.lifed-cont i:after{
+	display: block;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+	margin-bottom: 35px;
+}
+.lifed-cont p{
+	font-size: 14px;
+	line-height: 2;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+#lifedetails-swiper{
+	margin-top: 80px;
+	width: 100%;
+}
+.lifedetailssw-tab{
+	position: absolute;
+	width: 100%;
+	top: 45%;
+	z-index: 10;
+}
+.lifedetailssw-prev,.lifedetailssw-next{
+	position: absolute;
+	font-size: 40px;
+	color:#fff;
+	padding: 0 10px;
+	background: #e50045;
+	cursor: pointer;
+}
+.lifedetailssw-next{right: 0;}
 
 
 
@@ -493,6 +663,11 @@
 	.foodsw h2 br{display: none;}
 	.foodsw h3{font-size: 26px;}
 	.foodsw i:after{margin: 10px 0;}
+
+/*巷弄生活*/
+	.lifelistsw-prev{left:0;}
+	.lifelistsw-next{right:0;}
+
 
 }
 @media screen and (max-width: 990px) and (min-width: 300px){
@@ -584,5 +759,48 @@
 		height: auto;
 		top:35%;
 		left:0;
+	}
+/*巷弄生活*/
+	.lifelist{padding: 35px 0 10px 0;}
+	.lifelist .lifeliswbox{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.lifelistsw-tab1{
+		width: 20%;
+		position: absolute;
+		left:40%;
+		font-size: 20px;
+		line-height: 1;
+		top:auto;
+		bottom:0;
+	}
+	.lifelistsw-tab1 .swiper-pagination{
+		bottom: 4px;
+	}
+	.lifelistsw-prev,.lifelistsw-next{
+		position: absolute;
+		bottom: 0;
+		cursor: pointer;
+		font-size: 24px;
+		color: #000;
+		z-index: 15;
+	}
+	.lifelistsw-prev{left:0;}
+	.lifelistsw-next{right:0;}
+
+/*详细内容*/
+	.lifedetails .lifed-cont{width: 100%;}
+	.lifedetails .lifed-cont .top-cont{padding: 0 20px;}
+	.lifed-cont h2{font-size: 22px;}
+	.lifed-cont i:after{margin-bottom: 20px;}
+	.lifed-cont-title{margin: 20px 0;}
+	.lifed-cont-title h3{font-size: 16px;}
+	.lifed-cont p{font-size: 12px;}
+	#lifedetails-swiper{margin-top: 20px;}
+	.lifedetailssw-tab{top: 40%;}
+	.lifedetailssw-prev,.lifedetailssw-next{
+		font-size: 26px;
+		padding: 0 5px;
 	}
 }
