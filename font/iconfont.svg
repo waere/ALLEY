@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Fri Jun  2 14:57:23 2017
+Created by FontForge 20120731 at Mon Jun  5 16:17:47 2017
  By admin
 </metadata>
 <defs>
@@ -16,7 +16,7 @@ Created by FontForge 20120731 at Fri Jun  2 14:57:23 2017
     ascent="896"
     descent="-128"
     x-height="792"
-    bbox="0 -212 1260 896"
+    bbox="0 -212 2458 896"
     underline-thickness="0"
     underline-position="0"
     unicode-range="U+0078-EB5C"
@@ -70,6 +70,8 @@ t-107.5 161t-161 107.5t-195.5 40zM513 97q-187 0 -233 11q-52 12 -64 54q-5 18 -5 4
 q-18 31 -43.5 60t-58.5 55.5t-76 42.5t-87 16q-85 0 -153 -50t-114 -125q-5 -9 -19 -16t-32.5 -3.5t-29.5 20.5q-4 5 -7 19t-1 36t11 46.5t34 49t62.5 44t102 31.5t146.5 12t146 -11.5t101 -30.5t62 -43.5t34.5 -48t12 -46t0 -37t-5.5 -21.5z" />
     <glyph glyph-name="left" unicode="&#xe601;" horiz-adv-x="1026" 
 d="M0 896v-1024h1024v1024h-1024v0zM636 160l-53 -55l-257 313l1 1l275 291l50 -59l-225 -237z" />
+    <glyph glyph-name="xiangxiazhankai" unicode="&#xe619;" horiz-adv-x="2458" 
+d="M1229 -128l-1229 1024h2458z" />
     <glyph glyph-name="xihuan" unicode="&#xe6ae;" 
 d="M956 528q0 -185 -267 -421q-97 -86 -185 -143l-25.5 17t-63 47t-89.5 73t-95 91t-89.5 106t-63 113.5t-25.5 116.5q0 66 21.5 119t57.5 84.5t83 45t96.5 5t100.5 -41.5t92 -88q41 55 92 88t100.5 41.5t97 -5t83 -45t57.5 -84.5t22 -119v0z" />
     <glyph glyph-name="e-mail" unicode="&#xe709;" 

@@ -9,13 +9,14 @@ if($(window).width()<=767){
     paginationType : 'fraction',
     slidesPerView : 2,
     slidesPerColumn : 2,
-    // slidesPerColumnFill : 'column',
+    // slidesPerColumnFill : 'row',
     paginationFractionRender: function (swiper, currentClassName, totalClassName) {
       return '<span class="' + currentClassName + '"></span>' +
           '/' +
           '<span class="' + totalClassName + '"></span>';
       },    
   });
+  
 }else{
    lifelistsw1 = new Swiper('#lifelist-swiper1',{
     // effect : 'fade',
@@ -26,7 +27,7 @@ if($(window).width()<=767){
     paginationType : 'fraction',
     slidesPerView : 4,
     slidesPerColumn : 2,
-    // slidesPerColumnFill : 'column',
+    // slidesPerColumnFill : 'row',
     // paginationFractionRender: function (swiper, currentClassName, totalClassName) {
     //   return '<span class="' + currentClassName + '"></span>' +
     //       '/' +

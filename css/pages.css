@@ -530,6 +530,7 @@
 	position: absolute;
 	top:2px;
 	right:0;
+	font-size: 13px;
 	color:#999;
 }
 .lifelistsw-tab1{
@@ -624,6 +625,205 @@
 	cursor: pointer;
 }
 .lifedetailssw-next{right: 0;}
+/*合作品牌*/
+.brandlist{
+	width: 100%;
+	background: #000;
+	padding: 30px 0;
+	overflow: hidden;	
+}
+.brandliswbox{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+#brandlist-swiper1 .swiper-slide{
+	height: 300px;
+	border: 1px solid #1b1b1b;
+	background: #000;
+	overflow: hidden;
+}
+.brandsummary{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.brandsummary .summary-img{
+	width: 100%;
+	height: 100%;
+}
+.brandsummary .summary-img img{
+	position: absolute;
+	width: 125px;
+	height: 34px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.brandsummary .summary-cont{
+	position: absolute;
+	top:100%;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color:#fff;
+	transition: all .5s;
+	padding: 15px;
+}
+.brandsummary:hover .summary-cont{top:0;}
+.brandsummary .summary-cont h3{
+	padding-left: 10px;
+	border-left: 4px solid #e50045;
+	font-size: 26px;
+	line-height: 1;
+	color:#e50045;
+}
+.brandsummary .summary-cont p{
+	padding: 15px;
+	text-align: justify;
+	line-height: 2;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+.brandsummary .summary-cont span{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+	margin: 0 auto;
+	width: 80%;
+	border-top: 1px solid #fff;
+	padding-top: 5px;
+}
+.brandlistsw-tab1{
+	position: absolute;
+	top:340px;
+	width: 100%;
+	color:#fff;
+	z-index: 10;
+}
+.brandlistsw-prev,.brandlistsw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 50px;
+	cursor: pointer;
+	z-index: 15;
+}
+.brandlistsw-prev{left: -70px;}
+.brandlistsw-next{right: -70px;}
+
+/*品牌内容*/
+.brandcontbox{
+	position: relative;
+	width: 100%;
+	padding: 50px 0;
+	background: #e5e5e5;
+	/*overflow: hidden;*/
+}
+.brandcontbox>.iconfont{
+	position: absolute;
+	width: 20%;
+	bottom: -30px;
+	left:40%;
+	font-size: 30px;
+	color:#e5e5e5;
+	z-index: 10;
+	line-height: 1;
+	text-align: center;
+}
+.brandcont{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.brandconimg img{
+	width: 234px;
+	height: 65px;
+}
+.brandcont i:after{
+	display: block;
+	content: '';
+	width: 80px;
+	border: 2px solid #000;
+	margin: 35px auto;
+}
+.brandcont p{
+	font-size: 14px;
+	line-height: 2;
+}
+.brandcont a{
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 14px;
+	background: #707070;
+	color:#fff;
+	margin-top: 30px;
+}
+.brandcont a:hover{background: #e50045;}
+.brandcontsw-tab{
+	position: absolute;
+	width: 100%;
+	top:70%;
+	z-index: 10;
+}
+.brandcontsw-prev,.brandcontsw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 50px;
+	color:#000;
+	cursor: pointer;
+	z-index: 15;
+}
+.brandcontsw-prev{left: 0;}
+.brandcontsw-next{right:0;}
+/*产品图片列表*/
+.brandpic{
+	width: 100%;
+	background: #fff;
+	padding: 50px 0 100px 0;
+}
+.brandpicswbox{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+#brandpic-swiper .swiper-slide>div{
+	padding: 10px;
+}
+.brandpicsw-tab2{
+	position: absolute;
+	width: 50%;
+	left:25%;
+	bottom: -80px;
+	z-index: 10;
+}
+.brandpicsw-tab2 .brandpicsw-prev,.brandpicsw-tab2 .brandpicsw-next{
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	cursor: pointer;
+	z-index: 15;
+}
+.brandpicsw-tab2 .brandpicsw-next{right: 0;}
+.brandpicsw-tab2 .swiper-pagination{bottom: 4px;}
+.brandpicsw-tab2 .swiper-pagination-bullet{
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	background: rgba(0,0,0,0);
+	opacity: 1;
+	margin: 0 5px;
+}
+.brandpicsw-tab2 .swiper-pagination-bullet-active{
+	color:#e50045;
+	background: rgba(0,0,0,0);
+}
 
 
 
@@ -668,6 +868,9 @@
 	.lifelistsw-prev{left:0;}
 	.lifelistsw-next{right:0;}
 
+/*合作品牌*/
+	.brandlistsw-prev{left: 0;}
+	.brandlistsw-next{right: 0;}
 
 }
 @media screen and (max-width: 990px) and (min-width: 300px){
@@ -803,4 +1006,60 @@
 		font-size: 26px;
 		padding: 0 5px;
 	}
+/*品牌合作*/
+	.brandlist{padding: 15px 0 50px 0;}
+	.brandliswbox{width: 100%;}
+	.brandsummary .summary-cont{
+		padding: 5px;
+	}
+	.brandsummary .summary-cont h3{
+		font-size: 16px;
+		padding-left: 5px;
+	}
+	.brandsummary .summary-cont p{
+		font-size: 10px;
+		padding: 5px 10px 0 10px;
+		line-height: 1.5;
+		width: 100%;
+		height: 55%;
+		overflow : hidden;
+		text-overflow: hidden;		
+	}
+	.brandsummary .summary-cont span{
+		font-size: 10px;
+		bottom: 5px;
+		width: 90%;
+		padding-top: 3px;
+	}
+	.brandlistsw-tab1{
+		width: 20%;
+		left:40%;
+		top:auto;
+		bottom: -45px;
+	}
+	.brandlistsw-prev,.brandlistsw-next{font-size: 24px;}
+	.brandlistsw-prev{left: 0;}
+	.brandlistsw-next{right: 0;}
+/*品牌内容*/
+	.brandcont{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.brandconimg img{
+		width: 35%;
+		height: auto;
+	}
+	.brandcont i:after{
+		width: 40px;
+		margin: 20px auto;
+		margin-bottom: 10px;
+	}
+	.brandcontbox>.iconfont{
+		font-size: 20px;
+		bottom: -20px;
+	}
+/*产品图片列表*/
+	.brandpic{padding: 30px 0 50px 0;}
+	.brandpicswbox{width: 100%;}
+	.brandpicsw-tab2{bottom: -40px;}
 }
