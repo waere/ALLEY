@@ -126,143 +126,23 @@
 				<a href="###">巷弄生活</a>
 			</div>
 		</div>
-
+	<div id="lifeapp">
 	<!-- 活动列表 -->
 		<div class="lifelist">
 			<div class="lifeliswbox">
 				<div class="swiper-container" id="lifelist-swiper1">
 	        		<div class="swiper-wrapper" >
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
+	            		<div class="swiper-slide" v-for="(ls,index) in lifeList">
+	            			<div class="lifesummary" @click="contShow(index)">
 	            				<div class="summary-img">
-	            					<img src="images/life/p-life-2.jpg" alt="">
+	            					<img :src=ls.lsimg alt="">
 	            				</div>
 	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
+	            					<h3>{{ls.lstitle}}</h3>
+	            					<p>{{ls.lssketch}}</p>
 	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-3.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-4.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-5.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-5.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-4.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-3.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-2.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
-	            					</div>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="lifesummary">
-	            				<div class="summary-img">
-	            					<img src="images/life/p-life-2.jpg" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>《爱》新书发布会</h3>
-	            					<p>推荐书网为您推荐最新的书籍资讯...</p>
-	            					<div>
-	            						<span><em class="iconfont">&#xe6ae;</em> 148</span>
-	            						<time>2014/08/04</time>
+	            						<span><em class="iconfont" v-html="ls.lslike"></em> {{ls.lsvomun}}</span>
+	            						<time>{{ls.lstime}}</time>
 	            					</div>
 	            				</div>
 	            			</div>
@@ -283,33 +163,25 @@
 		<div class="lifedetails">
 			<div class="lifed-cont">
 				<div class="top-cont">
-					<h2>CHINESE OF CUISINE</h2>
+					<h2>{{lifeContent.lsbtitle}}</h2>
 					<div class="lifed-cont-title">
-						<h3>《爱》新书发布会</h3>
+						<h3>{{lifeContent.lstitle}}</h3>
 						<div class="hidden-xs">
-							<span><em class="iconfont">&#xe6ae;</em> 148</span>
-							<time>2014/08/04</time>
+							<span><em class="iconfont" v-html="lifeContent.lslike"></em> {{lifeContent.lsvomun}}</span>
+							<time>{{lifeContent.lstime}}</time>
 						</div>
 					</div>
 					<i></i>
-					<p>
-						这是一件真实的故事，就在几年前发生在我们单位。秋萍是我们学校最漂亮、很有才学的骨干教师，也是个非常可爱、很有主见的时代年轻人，她原准备去年结婚的，那段时间，秋萍整天忙得不亦乐乎，买房、装修、置家……半年来，每一样她都要亲自操心，光请東就写了四百多张，累得地膀子像灌了铅。
-					</p>
-					<P>
-						她的未婚夫叫留佳，一个萑有诗情画意的名字，他是名牌大学的研究生i三年前，他放弃政府部门的工作，自己办起了公司，生意做得红红火火，只是整天忙，没有多少时间顾及秋萍，秋萍很贤惠，对未婚夫更多的是关爱、倍任和理解，她知道，公司的每一点成续都要靠留佳在打拼，在现在的社会中，竞争之激烈是难以想象的。一想到留佳和自己未来甜蜜的生活，秋萍眼角里始终填满了知足的微笑，我们也都替她高兴，暗自庆幸他们的天赐良缘。接到电话的留佳丟下饭桌上的秋萍飘然而去，然而，风雨中，她再一次看见留佳一个箭步又闯了红灯……没有想到，刚才半天的唠叨，他怎么可以依然故我？
-					</p>
-					<P>
-						独自回到家的秋萍一下子懵了，坐在床上，搌转反侧，她想到了用手机短信和他交流，她把自己的观点和对留佳深深的爱写成一条条短信，前前后后发了二十多条，始终没有等到留佳的回复， 一打电话，关机了。第二天中午，她终于盼来了留佳的佶息，一看，只有十三个字：神经质，小题大做，我没有时间等！
-					</p>
+					<div v-html="lifeContent.lsdetailed"></div>					
 				</div>
-				<div class="swiper-container" id="lifedetails-swiper">
+				<div class="swiper-container lifedetails-swiper" id="">
 	        		<div class="swiper-wrapper">
-	            		<div class="swiper-slide">
-	            			<img src="images/life/p-life-6.jpg" alt="">
+	            		<div class="swiper-slide" v-for="ldcsw in lifeContent.lsdetimg">
+	            			<img :src=ldcsw.img1 alt="">
 	            		</div>
-	            		<div class="swiper-slide">
+	            		<!-- <div class="swiper-slide">
 	            			<img src="images/life/p-life-6.jpg" alt="">
-	            		</div>
+	            		</div> -->
 	        		</div>
 	        		<!-- 左右切换 -->
 	        		<div class="lifedetailssw-tab">
@@ -321,7 +193,7 @@
 	    		</div>
 			</div>
 		</div>
-
+	</div>
 
 
 
@@ -377,6 +249,7 @@
 
 
 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/vue.js"></script>
 	<script src="js/swiper-3.4.2.jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/currency.js"></script>

@@ -606,7 +606,7 @@
 	margin-bottom: 15px;
 	text-align: justify;
 }
-#lifedetails-swiper{
+.lifedetails-swiper{
 	margin-top: 80px;
 	width: 100%;
 }
@@ -1000,7 +1000,7 @@
 	.lifed-cont-title{margin: 20px 0;}
 	.lifed-cont-title h3{font-size: 16px;}
 	.lifed-cont p{font-size: 12px;}
-	#lifedetails-swiper{margin-top: 20px;}
+	.lifedetails-swiper{margin-top: 20px;}
 	.lifedetailssw-tab{top: 40%;}
 	.lifedetailssw-prev,.lifedetailssw-next{
 		font-size: 26px;
