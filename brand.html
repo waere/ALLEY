@@ -126,141 +126,22 @@
 				<a href="###">合作品牌</a>
 			</div>
 		</div>
-
+	
+	<div id="brandapp">
 	<!-- 合作品牌列表 -->
 		<div class="brandlist">
 			<div class="brandliswbox">
 				<div class="swiper-container" id="brandlist-swiper1">
 	        		<div class="swiper-wrapper" >
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
+	            		<div class="swiper-slide" v-for="(item,index) in brandList">
+	            			<div class="brandsummary" @click="brlistTap(index)">
 	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
+	            					<img :src=item.brwlogo alt="">
 	            				</div>
 	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-3.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-3.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-3.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-3.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-3.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
-	            				</div>
-	            			</div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="brandsummary">
-	            				<div class="summary-img">
-	            					<img src="images/brand/p-brand-2.png" alt="">
-	            				</div>
-	            				<div class="summary-cont">
-	            					<h3>贵州好产品</h3>
-	            					<p>素有“森林奶油”之称的牛油果，香气浓郁，营养价值可与奶油媲美，和香蕉搭配在一起绝对是软糯香甜又营养丰富的代餐品...</p>
-	            					<span>@ 贵州好产品农场有限公司</span>
+	            					<h3>{{item.brtitle}}</h3>
+	            					<p>{{item.brcont}}</p>
+	            					<span>@ {{item.brcompany}}</span>
 	            				</div>
 	            			</div>
 	            		</div>
@@ -281,35 +162,13 @@
 			<div class="brandcont">
 				<div class="swiper-container" id="brandcont-swiper">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
+						<div class="swiper-slide" v-for="item in brandList">
 							<div class="brandconimg">
-								<img src="images/brand/p-brand-caiweiji.png" alt="">
+								<img :src=item.brblogo alt="">
 							</div>
 							<i></i>
-							<p>
-								一想到留佳和自己未来甜蜜的生活，局归湖山答复你奥维热户籍科撒谎的，不过是一场无知的探索。<br/>看我伽师瓜对欧亚非文化环境的手法。
-							</p>
-							<a href="###">前往商城</a>
-						</div>
-						<div class="swiper-slide">
-							<div class="brandconimg">
-								<img src="images/brand/p-brand-caiweiji.png" alt="">
-							</div>
-							<i></i>
-							<p>
-								一想到留佳和自己未来甜蜜的生活，局归湖山答复你奥维热户籍科撒谎的，不过是一场无知的探索。<br/>看我伽师瓜对欧亚非文化环境的手法。
-							</p>
-							<a href="###">前往商城</a>
-						</div>
-						<div class="swiper-slide">
-							<div class="brandconimg">
-								<img src="images/brand/p-brand-caiweiji.png" alt="">
-							</div>
-							<i></i>
-							<p>
-								一想到留佳和自己未来甜蜜的生活，局归湖山答复你奥维热户籍科撒谎的，不过是一场无知的探索。<br/>看我伽师瓜对欧亚非文化环境的手法。
-							</p>
-							<a href="###">前往商城</a>
+							<p v-html="item.brswcon"></p>
+							<a :href=item.brUrl >前往商城</a>
 						</div>
 					</div>
 					<!-- 左右切换 -->
@@ -329,48 +188,23 @@
 			<div class="brandpicswbox">
 				<div class="swiper-container" id="brandpic-swiper">
 	        		<div class="swiper-wrapper">
-	            		<div class="swiper-slide">
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-4.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-5.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-6.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-7.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-8.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-9.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-10.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-11.jpg" alt=""></div>
+	            		<div class="swiper-slide" v-for="item in brandList">
+	            			<div class="col-md-3 col-xs-6 nopd" v-for="brimg in item.brimglist">
+	            				<img class="" :src=brimg.brimg alt="">
+	            			</div>
 	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-4.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-5.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-6.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-7.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-8.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-9.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-10.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-11.jpg" alt=""></div>
-	            		</div>
-	            		<div class="swiper-slide">
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-4.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-5.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-6.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-7.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-8.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-9.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-10.jpg" alt=""></div>
-	            			<div class="col-md-3 col-xs-6 nopd"><img class="" src="images/brand/p-brand-11.jpg" alt=""></div>
-	            		</div>
-	        		</div>
-	        		
+	        		</div>	        		
 	    		</div>
 	    		<!-- 左右切换 -->
         		<div class="brandpicsw-tab2">
-        			<div class="brandpicsw-prev iconfont">&#xeb5c;</div>
-					<div class="brandpicsw-next iconfont">&#xe763;</div>
+        			<!-- <div class="brandpicsw-prev iconfont">&#xeb5c;</div> -->
+					<!-- <div class="brandpicsw-next iconfont">&#xe763;</div> -->
 					<!-- 分页器 -->
         			<div class="swiper-pagination brandpicsw-pagination"></div>
         		</div>
 			</div>
 		</div>
+	</div>
 
 
 
@@ -426,6 +260,7 @@
 
 
 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/vue.js"></script>
 	<script src="js/swiper-3.4.2.jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/currency.js"></script>

@@ -467,7 +467,7 @@
 }
 #bottomimg-container1{margin-bottom: 15px;}
 #bottomimg-container2 .swiper-slide{padding: 0 3px;}
-.active-nav{opacity: .6;}
+.active-nav{opacity: .7;}
 .bottomimgsw-prev,.bottomimgsw-next{
 	position: absolute;
 	top:30%;
@@ -786,7 +786,7 @@
 .brandpic{
 	width: 100%;
 	background: #fff;
-	padding: 50px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 .brandpicswbox{
 	position: relative;
@@ -797,10 +797,10 @@
 	padding: 10px;
 }
 .brandpicsw-tab2{
-	position: absolute;
-	width: 50%;
-	left:25%;
-	bottom: -80px;
+	position: relative;
+	/*width: 50%;*/
+	/*left:25%;*/
+	bottom: -20px;
 	z-index: 10;
 }
 .brandpicsw-tab2 .brandpicsw-prev,.brandpicsw-tab2 .brandpicsw-next{
@@ -811,7 +811,11 @@
 	z-index: 15;
 }
 .brandpicsw-tab2 .brandpicsw-next{right: 0;}
-.brandpicsw-tab2 .swiper-pagination{bottom: 4px;}
+.brandpicsw-tab2 .swiper-pagination{
+	position: relative;
+	padding: 0 20px;
+	bottom: 5px;
+}
 .brandpicsw-tab2 .swiper-pagination-bullet{
 	width: auto;
 	height: auto;
@@ -1059,7 +1063,9 @@
 		bottom: -20px;
 	}
 /*产品图片列表*/
-	.brandpic{padding: 30px 0 50px 0;}
+	.brandpic{padding: 30px 0 10px 0;}
 	.brandpicswbox{width: 100%;}
-	.brandpicsw-tab2{bottom: -40px;}
+	.brandpicsw-tab2{bottom: -25px;}
+	.brandpicsw-tab2 .swiper-pagination{bottom: 25px;}
+	.brandpicsw-tab2 .swiper-pagination-bullet{font-size: 16px;}
 }
