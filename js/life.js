@@ -170,7 +170,9 @@ var lifeapp = new Vue({
   data:lifeObj,
   methods:{
     contShow:function(index){
+      var scTop = $('.lifedetails').offset().top;
       this.lifeContent = this.lifeList[index];
+      $('body').animate({scrollTop:scTop},500);
     }
   }
 });

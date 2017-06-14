@@ -181,6 +181,8 @@ var brandapp = new Vue({
   methods:{
     brlistTap:function(index){
       swsli(index);
+      var scTop = $('.brandcontbox').offset().top;
+      $('body').animate({scrollTop:scTop},500);
     }
   }
 });
@@ -223,12 +225,14 @@ if($(window).width()<=767){
 
 // 品牌图片列表sw
 var brandcontsw = Swiper('#brandcont-swiper',{
+  // effect : 'fade',
   prevButton:'.brandcontsw-prev',
   nextButton:'.brandcontsw-next',
   // pagination: '.swiper-pagination',
 }); 
 
 var brandpicsw = new Swiper('#brandpic-swiper',{
+  effect : 'fade',
   prevButton:'.brandpicsw-prev',
   nextButton:'.brandpicsw-next',
   pagination: '.brandpicsw-pagination',
