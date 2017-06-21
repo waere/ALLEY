@@ -13,7 +13,7 @@
 .tasbanconer{
 	position: absolute;
 	top: 30%;
-	left: 25%;
+	left: 19%;
 }
 .tasbanconer h1{
 	font-family: futura;
@@ -262,8 +262,6 @@
 }
 .operate .row{margin: 0;}
 .oper-column1 .column1-L{
-	/*height: 475px;*/
-	/*padding: 62px 0;*/
 	background: rgb(237,237,237);
 	overflow: hidden;
 }
@@ -273,7 +271,31 @@
 }
 .oper-column1 img{width: 100%;height:100%;}
 .oper-column2 img{width: 100%;height:100%;}
-
+.oper-prompt{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(229,0,69,.6);
+	text-align: center;
+	opacity: 0;
+	transition:all .5s;
+}
+.oper-prompt:hover{opacity: 1;}
+.oper-prompt table{
+	width: 100%;
+	height: 100%;
+}
+.oper-prompt a{
+	display: inline-block;
+	font-size: 24px;
+	color:#fff;
+}
+.oper-prompt a b{
+	font-weight: normal;
+	font-size: 130px;
+}
 
 /*问巷美食*/
 .thispagenav{
@@ -837,7 +859,7 @@
 /*品味头部*/
 	.tasbanconer {
 	    top: 35%;
-	    left: 30%;
+	    left: 25%;
 	}
 	.tasbanconer h1{
 		font-size: 50px;
@@ -882,7 +904,7 @@
 	.tasbanconer{
 		top: auto;
 		bottom: 15%;
-		left: 8%;
+		left: 15px;
 	}
 	.tasbanconer h1{
 		font-size: 26px;
@@ -914,12 +936,16 @@
 
 /*问巷文化*/
 	#culture-swiper1{
-		width: 85%;
-		height: auto;
-		left: 7.5%;
+		width: 90%;
+		height: 60%;
+		top:0;
+		left: 0;
+		right:0;
+		bottom:0;
+		margin: auto;
 	}
 	#culture-swiper2 .swiper-slide img{height: auto;}
-	#culture-swiper1 .swiper-wrapper{height: auto;}
+	/*#culture-swiper1 .swiper-wrapper{height: auto;}*/
 	#culture-swiper1 .swiper-slide {padding: 10px;}
 
 /*问巷环境*/
@@ -946,6 +972,8 @@
 	.oper-column1 .column1-L>div{
 		margin: 0;
 	}
+	.oper-prompt a{font-size: 12px;}
+	.oper-prompt a b{font-size: 60px;}
 
 /*问巷美食*/
 	.thispagenav .pagenav-list{width: 100%;}

@@ -1,10 +1,10 @@
 
 @font-face {font-family: "ALLEY";
-  src: url('iconfont.eot?t=1496650667342'); /* IE9*/
-  src: url('iconfont.eot?t=1496650667342#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1496650667342') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1496650667342') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1496650667342#ALLEY') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1497956023050'); /* IE9*/
+  src: url('iconfont.eot?t=1497956023050#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1497956023050') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1497956023050') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1497956023050#ALLEY') format('svg'); /* iOS 4.1- */
 }
 
 .ALLEY {
@@ -23,31 +23,63 @@
 
 .ALLEY-qianjin:before { content: "\e763"; }
 
-.ALLEY-iconfontditudaohang:before { content: "\e630"; }
-
-.ALLEY-meishi:before { content: "\e634"; }
-
-.ALLEY-signopen:before { content: "\e61b"; }
-
-.ALLEY-E-mail:before { content: "\e620"; }
-
-.ALLEY-guhuaicon:before { content: "\e63d"; }
-
 .ALLEY-left:before { content: "\e601"; }
 
 .ALLEY-xiangxiazhankai:before { content: "\e619"; }
 
 .ALLEY-xihuan:before { content: "\e6ae"; }
 
-.ALLEY-e-mail:before { content: "\e709"; }
+.ALLEY-in-fenxiang:before { content: "\e603"; }
 
-.ALLEY-guhua:before { content: "\e699"; }
+.ALLEY-fenxiang:before { content: "\e604"; }
 
-.ALLEY-yqf-guhuasvg:before { content: "\e75d"; }
+.ALLEY-in-qq:before { content: "\e605"; }
 
-.ALLEY-e-mail1:before { content: "\e606"; }
+.ALLEY-qq:before { content: "\e607"; }
 
-.ALLEY-guhua1:before { content: "\e600"; }
+.ALLEY-in-youtube:before { content: "\e60d"; }
+
+.ALLEY-Twitter:before { content: "\e60e"; }
+
+.ALLEY-in-weixin:before { content: "\e60f"; }
+
+.ALLEY-in-Twitter:before { content: "\e610"; }
+
+.ALLEY-in-weibo:before { content: "\e611"; }
+
+.ALLEY-weixin:before { content: "\e612"; }
+
+.ALLEY-weibo:before { content: "\e613"; }
+
+.ALLEY-youtube:before { content: "\e614"; }
+
+.ALLEY-you:before { content: "\e615"; }
+
+.ALLEY-zuo:before { content: "\e616"; }
+
+.ALLEY-xia:before { content: "\e617"; }
+
+.ALLEY-shang:before { content: "\e618"; }
+
+.ALLEY-weixuanze:before { content: "\e61a"; }
+
+.ALLEY-xuanzhong:before { content: "\e61c"; }
+
+.ALLEY-quxiaoxuanze:before { content: "\e61e"; }
+
+.ALLEY-yiruxuanze:before { content: "\e61f"; }
+
+.ALLEY-lianxiwomen:before { content: "\e621"; }
+
+.ALLEY-youxiang:before { content: "\e622"; }
+
+.ALLEY-dianhua:before { content: "\e623"; }
+
+.ALLEY-dizhi:before { content: "\e624"; }
+
+.ALLEY-chuanzhen:before { content: "\e625"; }
+
+.ALLEY-zuoji:before { content: "\e626"; }
 
 .ALLEY-bofang:before { content: "\e698"; }
 
@@ -62,4 +94,6 @@
 .ALLEY--x3:before { content: "\e60b"; }
 
 .ALLEY-u4:before { content: "\e60c"; }
+
+.ALLEY-open:before { content: "\e65b"; }
 

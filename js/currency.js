@@ -7,15 +7,18 @@ $(function(){
 function navshow(){
 	$(".nav-show").click(function (e) {
         $(".navlist").fadeIn();
+        $(".fullbg").fadeIn();
         e.stopPropagation();//阻止冒泡
     });
 
     $(document).bind('click', function () {
         $(".navlist").fadeOut();
+        $(".fullbg").fadeOut();
     });
 
     $('.hider').bind('click', function () {
         $(".navlist").fadeOut();
+        $(".fullbg").fadeOut();
     });
 
     $(".navlist").click(function (e) {

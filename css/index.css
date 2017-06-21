@@ -62,16 +62,23 @@ html, body {
 	/*height: 100%;*/
 	border: 0;
 }
+.banerswtab{
+	position: absolute;
+	width: 10%;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
 	width: auto;
-	/*bottom: 12.3%;*/
-	top:82%;
-	left: 14%;
+	bottom:0;
 }
-.sw-next, .sw-prev{top:85%;}
-.sw-prev{left:10%;}
-.sw-next{left:20%;}
+/*.sw-next, .sw-prev{top:85%;}*/
+.sw-prev{left:0;}
+.sw-next{right:0;}
 .swiper-pagination{
+	position: relative;
 	color:#fff;
 	font-size: 30px;
 }
@@ -132,6 +139,7 @@ html, body {
 	width: 42%;
 	height: 100%;
 	z-index: 10;
+	overflow: hidden;
 }
 .activity .act-tab ul{}
 .activity .act-tab ul li{
@@ -182,14 +190,6 @@ html, body {
 .act-conenter .cont1 h3{
 	font-family: '方正兰亭超细黑简体';
 	font-size: 36px;
-}
-.act-conenter .cont1 h3 i{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 10px;
-	height: 35px;
-	width: 35px;
-	background: url(../images/index/u510.png) no-repeat;
 }
 .act-conenter .cont1>i{
 	display: block;
@@ -263,14 +263,13 @@ html, body {
 .takebox .take-conter .take-tab a{
 	display: inline-block;
 	border-bottom: 2px solid #fff;
-	font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+	font-family:'微软雅黑';
 	color:#333;
 }
 .takebox .take-conter .take-tab .thistab{
 	border-bottom: 2px solid #E50044;
 	color:#E50044;
 	font-weight: 700;
-	/*text-decoration: underline;*/
 }
 .takebox .take-conter p{
 	padding: 0;
@@ -335,7 +334,7 @@ html, body {
 .moserbox .moserconre .mosertab a{
 	display: inline-block;
 	/*border-bottom: 2px solid #fff;*/
-	font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+	font-family:'微软雅黑';
 	color:#fff;
 }
 .moserbox .moserconre .mosertab .thistab{
@@ -350,7 +349,7 @@ html, body {
 	margin-left: 15px;
 }
 .moserbox .moserconre p{
-	padding: 0;
+	padding: 20px 0 0 0;
 	font-size: 24px;
 	color:#fff;
 }
@@ -722,14 +721,14 @@ html, body {
 }
 @media screen and (max-width: 990px) and (min-width: 300px) {
 	.swslide img{height: 100%;}
-	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-		top:86.3%;
-		left: 40.3%;
+	.sw-next, .sw-prev{background-size: 20px 20px;}
+	.sw-prev{left:0;}
+	.sw-next{right:0;}
+	.swiper-pagination{font-size: 14px;}
+	.banerswtab{
+		width: 20%;
+		bottom:15px;
 	}
-	.sw-next, .sw-prev{top:90%;background-size: 25px 30px;}
-	.sw-prev{left:33%;}
-	.sw-next{left:55%;}
-	.swiper-pagination{font-size: 25px;}
 /*中间导航*/
 	.centernav {height: auto;}
 	.centernav ul li{
@@ -760,49 +759,59 @@ html, body {
 		height: auto;
 	}
 	.activity .act-tab{
-		position: static;
+		position: relative;
 		width: 100%;
 	}
 
 	.activity .act-tab ul{
 		display: none;
-		/*position: inherit;*/
 	}
 	.act-conenter{
-		padding-left: 20px;
+		position: relative;
+		margin-bottom: 20px;
+		padding: 0 15px;
 		padding-top: 0;
+		width: 100%;
 	}
 	.act-conenter>p{display: none;}
 	.act-conenter .cont1{margin: 20px 0;}
-	.act-conenter .cont1 h2 {
-		font-size: 36px;
+	.act-conenter .cont1 h2 {font-size: 30px;}
+	.act-conenter .cont1 h3{font-size: 24px;}
+	.act-conenter .cont1 p{font-size: 12px;}
+	.act-conenter .cont1>i{
+		width: 30px;
+		border: 1px solid #fff;
+		margin: 15px 0;
 	}
-	.swbox2{padding-top: 90%;}
+	/*.swbox2{padding-top: 95%;}*/
 	.act-conenter>a{
 		width: 110px;
 		height: 35px;
 		line-height: 35px;
 		z-index: 15;
-		top:44%;
+		top:auto;
+		bottom:0;
 	}
 	.act-prev,.act-next{
 		display: block;
-		top: 75%;
+		top: 50%;
     	height: 35px;
 	}
 /*采味集*/
 	.takebox{
-		height: 100%;
+		height: auto;
 	}
 	.takebox .takeimg img{
 		width: 100%;
 		height: auto;
 	}
 	.takebox .take-conter{
+		position: relative;
 		padding: 0 6%;
 		width: 100%;
 		top:0;
 		left:0;
+		overflow: hidden;
 	}
 	.takebox .take-conter h6{
 		display: none;
@@ -819,9 +828,6 @@ html, body {
 	.takebox .take-conter>a{
 		position: relative;
 		margin-top: 15px;
-		/*margin-left: -185px;*/
-		/*left: -180px;*/
-		/*bottom: -38px;*/
 	}
 	.takebox .take-conter>img{
 		margin-top: 10%;
@@ -834,11 +840,6 @@ html, body {
 		margin-top: 15px;
     	margin-bottom: 0px;
 	}
-	.takebox .take-conter .take-tab i{display: block;}
-	.takebox .take-conter .take-tab a{
-		/*display: block;*/
-	}
-	.takebox .take-conter .take-tab span{display: none;}
 
 /*摩瑟*/
 	.moserbox .moserconre{
@@ -848,9 +849,9 @@ html, body {
 		width: 100%;
 		left: 0;
 	}
-	.moserbox .moserconre img{width: 280px;margin-top:25px;}
+	.moserbox .moserconre img{width: 280px;margin-top:15px;}
 	.moserbox .moserconre .mosertab{
-		margin-top: 20px;
+		margin-top: 10px;
 		font-size: 16px;
 		text-align: left;
 	}
@@ -858,13 +859,8 @@ html, body {
 		margin-bottom: 10px;
 		border-bottom:2px solid #000;
 	}
-	.moserbox .moserconre .mosertab span{display: none;	}
-	.moserbox .moserconre .mosertab i{
-		display: block;
-		margin: 0;
-	}
 	.moserbox .moserconre p{
-		margin-top: 20px;
+		padding-top: 10px;
 		text-align: left;
 		font-size: 16px;
 	}
@@ -892,6 +888,7 @@ html, body {
 	.ecoloswbox2{
 		width: 100%;
 		height: auto;
+		margin-top: 20px;
 	}
 	.ecoloswbox2 .swiper-slide h2{
 		font-size: 32px;
@@ -900,11 +897,12 @@ html, body {
 	.ecoloswbox2 .swiper-slide i:after{
 		margin: 15px 0;
 		width: 30px;
+		border:1px solid #fff;
 	}
 	.ecoloswbox2 .swiper-slide p{font-size: 13px;}
 	.ecolconter-next{
-		bottom: 0;
-		right: 15px;
+		top: -60px;
+		left: 5px;
 	}
 	.ecolconterbox .ecolinkbtn{width: 100%;}
 /*问巷美酒*/
@@ -920,7 +918,7 @@ html, body {
 	}
 	.winebox .wineconter h2{font-size: 34px;}
 	.winebox .wineconter .winetab{
-		margin-top: 10px;
+		margin: 10px 0;
 		font-size: 16px;
 	}
 	.winebox .wineconter i:after{
@@ -951,9 +949,7 @@ html, body {
 		top:-20%;
 		left:0;
 	}
-	.cpsdlist{
-		overflow-x: scroll;
-	}
+	.cpsdlist{overflow-x: scroll;}
 	.cpsdlist ul li{width: 280px;}
 	.cpsdlist ul li img{width: 100%;}
 	.cpsdlist .cptitle{

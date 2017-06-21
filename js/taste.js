@@ -90,5 +90,9 @@ ambientsw2.params.control = ambientsw1;
 
 $(window).load(function() {
 	var colLeftHeight=$('.oper-column1 img').height();
-	$('.oper-column1 .column1-L').height(colLeftHeight)
+	$('.oper-column1 .column1-L').height(colLeftHeight);
+});
+$(window).resize(function(){
+	var colLeftHeight=$('.oper-column1 img').height();
+	$('.oper-column1 .column1-L').height(colLeftHeight);
 });

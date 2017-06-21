@@ -8,7 +8,7 @@ $(function(){
 	winetab();
 });
 
-// swiper 控制
+// banner swiper 控制
 var swiper = new Swiper('#swiper-container', {
 	        pagination: '.swiper-pagination',
 	        nextButton: '.swiper-button-next',
@@ -20,7 +20,7 @@ var swiper = new Swiper('#swiper-container', {
 			speed:300,
 			resistanceRatio: 0
 });
-// swiper菜单绑定
+// 生活swiper菜单绑定
 var swiper2 = new Swiper('#swiper-container2',{
 	nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
@@ -46,11 +46,13 @@ function swTab(n){
 
 // 判断屏幕大小
 function winWidth(){
-
 	var _width = $(window).width();
-	if (_width <= 768) {
+	if (_width <= 767) {
 		// 控制swiper可否滑动
 		$('.swbox2 .swiper-slide').removeClass('swiper-no-swiping');
+		// 生活内容块高度
+		var actconheight = $('.cont1').outerHeight(true) + $('.act-conenter>a').outerHeight(true);
+		$('.act-conenter').height(actconheight);
 	}
 }
 
@@ -116,7 +118,11 @@ function winetab(){
 		// console.log(ulWidth);
 		$('.cpsdlist ul').width(ulWidth);
 		// 采味集获取高度
-		$('.takebox').height($('.takeimg').height());
+		if($(window).width()<=767){
+			var padbott = $('.takeimg').height();
+			$('.takebox').css({'padding-bottom':padbott+'px'});
+		}
+		// $('.takebox').height($('.takeimg').height()*2);
 	}
 	
 
