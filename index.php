@@ -115,7 +115,7 @@
 					<li class="">沙龙</li>
 				</ul>
 				<div class="act-conenter">
-					<p>巷弄生活 / 问巷活动</p>
+					<p>#巷弄生活 / 问巷活动#</p>
 					<div class="cont1 cont-show">
 						<h2>MUSIC <span>PARTY</span></h2>
 						<h3>音乐派对</h3>
@@ -178,7 +178,7 @@
 	<!-- 采味集 -->
 		<div class="takebox">
 			<div class="take-conter">
-				<h6>问巷合作品牌</h6>
+				<h6>#问巷合作品牌#</h6>
 				<img src="images/index/u224.png" alt="">
 				<div class="take-tab col-xs-12">
 					<a class="thistab" href="javascript:void(0)">古村货郎</a>
@@ -222,7 +222,7 @@
 	<!-- 摩瑟 -->
 		<div class="moserbox">
 			<div class="moserconre">
-				<h6 class="hidden-xs">问巷合作品牌</h6>
+				<h6 class="hidden-xs">#问巷合作品牌#</h6>
 				<img src="images/index/moser-logo.png" alt="摩瑟">
 				<div class="mosertab col-xs-12">
 					<a class="thistab" href="javascript:void(0)">摩瑟咖啡</a><span> &nbsp;/&nbsp;</span>
@@ -375,7 +375,7 @@
 			</div>
 		</div>
 		<div class="wineconter">
-			<h6 class="hidden-xs">问巷美酒</h6>
+			<h6 class="hidden-xs">#问巷美酒#</h6>
 			<h2>ALLEY <span>WINE</span></h2>
 			<div class="winetab">
 				<a class="thistab" href="javascript:void(0)">红酒</a><span> &nbsp;/&nbsp;</span>

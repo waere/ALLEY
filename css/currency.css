@@ -325,21 +325,20 @@
 	float:left;
 }
 .botinfor ul li{
-	/*height: 50px;*/
 	margin-bottom: 15px;
 	font-size: 16px;
 	color:#ccc;
-	/*line-height: 50px;*/
 }
 .botinfor ul li span{
 	display: inline-block;
-	width: 15%;
+	// width: 15%;
 	font-size: 36px;
 	vertical-align: middle;
+	margin-right: 10px;
 }
 .botinfor ul li b{
 	display: inline-block;
-	width: 85%;
+	// width: 85%;
 	font-weight: normal;
 	vertical-align: middle;
 }
@@ -649,14 +648,21 @@
     	background: url(../images/index/u97.png) no-repeat 8px 8px;
     	background-size: 60%;
 	}
-	.botinfor ul{padding: 0 6%;}
+	.botinfor ul{
+		width: 100%;
+		padding: 0 6%;
+	}
 	.botinfor ul li{
+		width: 100%;
 		margin-bottom: 3px;
 		box-sizing:border-box;
 		font-size: 12px;
-		/*line-height: 50px;*/
 	}
-	.botinfor ul li span{font-size: 30px;}
+	.botinfor ul li span{
+		width: 10%;
+		font-size: 30px;
+	}
+	.botinfor ul li b{width: 85%;}
 	.bottombox .social{
 		position: absolute;
 		bottom:15%;

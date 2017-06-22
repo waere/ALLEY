@@ -43,25 +43,25 @@
 			<div class="pagenav-list">
 				<ul>
 					<li class="col-md-3 col-xs-6">
-						<a href="javascript:void(0)">
+						<a href="#cuisine">
 							<b class="iconfont">&#xe60b;</b><br>
 							<span>CHINESE OF CUISINE</span><br>中式佳肴
 						</a>
 					</li>
 					<li class="col-md-3 col-xs-6">
-						<a href="javascript:void(0)">
+						<a href="#coffee">
 							<b class="iconfont">&#xe609;</b><br>
 							<span>MOSE FASHION COFFEE</span><br>时尚咖啡
 						</a>
 					</li>
 					<li class="col-md-3 col-xs-6">
-						<a href="javascript:void(0)">
+						<a href="#greentea">
 							<b class="iconfont">&#xe608;</b><br>
 							<span>ALCOHOLIC GREEN TEA</span><br>最美绿饮
 						</a>
 					</li>
 					<li class="col-md-3 col-xs-6">
-						<a href="javascript:void(0)">
+						<a href="#foodwine">
 							<b class="iconfont">&#xe60a;</b><br>
 							<span>ASK ALLEY WINE</span><br>问巷美酒
 						</a>
@@ -248,7 +248,7 @@
 		</div>
 
 	<!-- 底部图片展示 -->
-		<div class="bottomimg hidden-xs">
+		<div class="bottomimg">
 			<div class="showbox">
 				<div class="swiper-container" id="bottomimg-container1" style="">
 					<div class="swiper-wrapper" style="">
@@ -270,23 +270,25 @@
 					</div>
 				</div>
 
-				<div class="swiper-container" id="bottomimg-container2" style="width:520px;">
-					<div class="swiper-wrapper" style="">
-						<div class="swiper-slide active-nav" style="width: 130px;">
-							<img src="images/food/p-alley-6-1.jpg" alt="">
-						</div>
-						<div class="swiper-slide" style="width: 130px;">
-							<img src="images/food/p-alley-7-1.jpg" alt="">
-						</div>
-						<div class="swiper-slide" style="width: 130px;">
-							<img src="images/food/p-alley-8-1.jpg" alt="">
-						</div>
-						<div class="swiper-slide" style="width: 130px;">
-							<img src="images/food/p-alley-7-1.jpg" alt="">
-						</div>
-						<div class="swiper-slide" style="width: 130px;">
-							<img src="images/food/p-alley-6-1.jpg" alt="">
-						</div>
+				<div class="bottomimgswbox2">
+					<div class="swiper-container" id="bottomimg-container2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide active-nav">
+								<img src="images/food/p-alley-6-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/food/p-alley-7-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/food/p-alley-8-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/food/p-alley-7-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/food/p-alley-6-1.jpg" alt="">
+							</div>
+						</div>						
 					</div>
 					<!-- 左右切换 -->
 	        		<!-- <div class="bottomimgsw-tab1 hidden-xs"> -->

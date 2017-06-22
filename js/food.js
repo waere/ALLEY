@@ -142,18 +142,17 @@ foodwinesw2.params.control = foodwinesw1;
 var bottomimgsw2 = new Swiper('#bottomimg-container2',{
 watchSlidesProgress : true,
 watchSlidesVisibility : true,
-prevButton:'.bottomimgsw-prev',
-nextButton:'.bottomimgsw-next',
 slidesPerView : 4,
 onTap: function(){
 			bottomimgsw1.slideTo( bottomimgsw2.clickedIndex)
 		}
 });
 var bottomimgsw1 = new Swiper('#bottomimg-container1',{
-
-onSlideChangeStart: function(){
-			updateNavPosition()
-		}
+	prevButton:'.bottomimgsw-prev',
+	nextButton:'.bottomimgsw-next',
+	onSlideChangeStart: function(){
+		updateNavPosition();
+	}
 
 });
 

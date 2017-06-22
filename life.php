@@ -44,7 +44,7 @@
 				<div class="swiper-container" id="lifelist-swiper1">
 	        		<div class="swiper-wrapper" >
 	            		<div class="swiper-slide" v-for="(ls,index) in lifeList">
-	            			<div class="lifesummary" @click="contShow(index)">
+	            			<div class="lifesummary" :class="{'lifesummary-current':ls.lscurrent}" @click="contShow(index)">
 	            				<div class="summary-img">
 	            					<img :src=ls.lsimg alt="">
 	            				</div>

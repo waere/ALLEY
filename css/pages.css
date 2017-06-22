@@ -277,7 +277,7 @@
 	left:0;
 	width: 100%;
 	height: 100%;
-	background: rgba(229,0,69,.6);
+	background: #e50045;
 	text-align: center;
 	opacity: 0;
 	transition:all .5s;
@@ -488,7 +488,15 @@
 	margin:0 auto;
 }
 #bottomimg-container1{margin-bottom: 15px;}
-#bottomimg-container2 .swiper-slide{padding: 0 3px;}
+.bottomimgswbox2{
+	position: relative;
+	width: 100%;
+}
+#bottomimg-container2{width: 520px;}
+#bottomimg-container2 .swiper-slide{
+	width: 130px;
+	padding: 0 3px;
+}
 .active-nav{opacity: .7;}
 .bottomimgsw-prev,.bottomimgsw-next{
 	position: absolute;
@@ -500,8 +508,8 @@
 	line-height: 1;
 	background: #e50045;
 }
-.bottomimgsw-prev{left:0;}
-.bottomimgsw-next{right:0;}
+.bottomimgsw-prev{left:25%;}
+.bottomimgsw-next{right:25%;}
 
 /*巷弄生活*/
 .lifelist{
@@ -524,6 +532,13 @@
 .lifesummary{
 	background: #fff;
 	cursor: pointer;
+	border:2px solid #e5e5e5;
+}
+.lifesummary:hover{border:2px solid #e50045;}
+.lifesummary-current{
+	background: #e50045;
+	border:2px solid #e50045;
+	color:#fff;
 }
 .lifesummary .summary-cont{
 	padding: 15px;
@@ -531,12 +546,17 @@
 .lifesummary .summary-cont h3{
 	font-size: 16px;
 	line-height: 1.2;
-	margin-left: -10px;
+	margin-left: -8px;
 }
+.lifesummary-current .summary-cont h3{color:#fff;}
 .lifesummary .summary-cont p{
 	margin-top: 5px;
 	line-height: 2;
 	font-size: 12px;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 .lifesummary .summary-cont>div{
 	position: relative;
@@ -555,6 +575,7 @@
 	font-size: 13px;
 	color:#999;
 }
+.lifesummary-current .summary-cont>div time{color:#fff;}
 .lifelistsw-tab1{
 	width: 100%;
 	position: absolute;
@@ -566,9 +587,11 @@
 	cursor: pointer;
 	font-size: 80px;
 	color: #000;
-}
-.lifelistsw-prev{left:-70px;}
-.lifelistsw-next{right:-70px;}
+	opacity: .5;
+	user-select: none;
+}.lifelistsw-prev:hover,.lifelistsw-next:hover{opacity: 1;}
+.lifelistsw-prev{left:-115px;}
+.lifelistsw-next{right:-115px;}
 /*巷弄生活活动详细内容*/
 .lifedetails{
 	width: 100%;
@@ -595,7 +618,7 @@
 	font-weight: normal;
 	font-size: 28px;
 	color:#666;
-	margin-left: -10px;
+	margin-left: -8px;
 }
 .lifed-cont-title>div{
 	position: absolute;
@@ -736,9 +759,11 @@
 	font-size: 50px;
 	cursor: pointer;
 	z-index: 15;
+	opacity: .5;
 }
-.brandlistsw-prev{left: -70px;}
-.brandlistsw-next{right: -70px;}
+.brandlistsw-prev:hover,.brandlistsw-next:hover{opacity: 1;}
+.brandlistsw-prev{left: -100px;}
+.brandlistsw-next{right: -100px;}
 
 /*品牌内容*/
 .brandcontbox{
@@ -980,6 +1005,16 @@
 	.pagenav-list ul li a{font-size: 1.2rem;padding: 10px 0;}
 	.pagenav-list ul li b{font-size: 80px;}
 	.pagenav-list ul li span{font-size: 1.2rem;}
+	.bottomimg{padding: 0 0 5px 0;}
+	.bottomimg .showbox{width: 100%;}
+	#bottomimg-container1{margin-bottom: 10px;}
+	#bottomimg-container2{width: 60%;}
+	.bottomimgsw-prev,.bottomimgsw-next{
+		top:16%;
+		font-size: 18px;
+	}
+	.bottomimgsw-prev{left:12%;}
+	.bottomimgsw-next{right:12%;}
 /*中式佳肴-咖啡-绿饮-美酒*/
 	.cuisine{padding: 0;}
 	#cuisine-swiper1 .swiper-slide,#coffee-swiper1 .swiper-slide,#greentea-swiper1 .swiper-slide{
@@ -1002,9 +1037,9 @@
 		padding-bottom: 30px;
 	}
 	.lifelistsw-tab1{
-		width: 20%;
+		width: 25%;
 		position: absolute;
-		left:40%;
+		left:37.5%;
 		font-size: 20px;
 		line-height: 1;
 		top:auto;

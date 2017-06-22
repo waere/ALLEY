@@ -192,15 +192,12 @@ var brandapp = new Vue({
 var brandlistsw1;
 if($(window).width()<=767){
   brandlistsw1 = new Swiper('#brandlist-swiper1',{
-    // effect : 'fade',
-    // loop:true,
     prevButton:'.brandlistsw-prev',
     nextButton:'.brandlistsw-next',
     pagination: '.swiper-pagination',
     paginationType : 'fraction',
     slidesPerView : 2,
     slidesPerColumn : 1,
-    // slidesPerColumnFill : 'row',
     paginationFractionRender: function (swiper, currentClassName, totalClassName) {
       return '<span class="' + currentClassName + '"></span>' +
           '/' +
@@ -212,8 +209,6 @@ if($(window).width()<=767){
   $('#brandlist-swiper1 .swiper-slide').width(slWH).height(slWH);
 }else{
    lifelistsw1 = new Swiper('#brandlist-swiper1',{
-    // effect : 'fade',
-    // loop:true,
     prevButton:'.brandlistsw-prev',
     nextButton:'.brandlistsw-next',
     pagination: '.swiper-pagination',
@@ -228,7 +223,6 @@ var brandcontsw = Swiper('#brandcont-swiper',{
   // effect : 'fade',
   prevButton:'.brandcontsw-prev',
   nextButton:'.brandcontsw-next',
-  // pagination: '.swiper-pagination',
 }); 
 
 var brandpicsw = new Swiper('#brandpic-swiper',{

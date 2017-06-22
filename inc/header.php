@@ -90,7 +90,7 @@
 		<div class="phone">
 			<div class="iconfont">&#xe623;</div>
 			<p>
-				<span>0755</span>
+				<span>订座热线：0755</span>
 				<span>23945537</span>
 			</p>
 		</div>
