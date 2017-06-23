@@ -41,8 +41,16 @@
 					</a>
 				</li>
 			</ul>
+			<!-- 移动端 -->
 			<div class="mob-nav-logo visible-xs-block">
-				<a href="index.php"><img src="images/u75_01.gif" alt=""></a>
+				<a class="col-xs-4 iconfont" href="index.php">
+					<!-- <img src="images/bot-logo.png" alt=""> -->
+					&#xe65c;
+				</a>
+				<div class="col-xs-8">
+					<h6>A bite of GuiZhou</h6>
+					<p>舌尖上的贵州</p>
+				</div>
 			</div>
 			<ul class="mob-nav firstlist">
 				<li>
@@ -78,13 +86,13 @@
 			<div class="hider">
 				<a href="javascript:void(0);"><img src="images/index/hide.png" alt="关闭"></a>
 			</div>
-			<div class="nav-search">
+			<!-- <div class="nav-search">
 				<div class="sear-btn iconfont">
 					&#xe61d;
-					<!-- <i></i> -->
+					<i></i>
 				</div>
 				<input type="text" placeholder="Search">
-			</div>
+			</div> -->
 		</div>
 		<div class="fullbg"></div>
 		<div class="phone">

@@ -566,7 +566,7 @@
 .lifesummary .summary-cont>div span{font-size: 12px;}
 .lifesummary .summary-cont>div span em{
 	vertical-align: middle;
-	font-size: 18px;
+	font-size: 12px;
 }
 .lifesummary .summary-cont>div time{
 	position: absolute;
@@ -940,12 +940,17 @@
 		padding: 15px 0;
 	}
 /*风情*/
-	.customs{padding: 5px 0 0 0;}
+	.customs{padding: 5px 0;}
 	.customsswbox{width: 100%;}
 	#customs-swiper1{padding-bottom: 0px;}
 	#customs-swiper1 .swiper-slide{
 		padding: 15px;
 		background: #e8e8e8;
+	}
+	.cutomssw-tab2 .customssw-prev, .cutomssw-tab2 .customssw-next{font-size: 22px;}
+	#customs-swiper2 .swiper-pagination-fraction{
+		font-size: 12px;
+		bottom: 6px;
 	}
 	.swiper-container h2{font-size: 20px;}
 	.swiper-container h3{font-size: 16px;}
@@ -969,12 +974,17 @@
 		bottom:0;
 		margin: auto;
 	}
+	.culturesw-tab2 .culturesw-prev, .culturesw-tab2 .culturesw-next{font-size: 22px;}
+	.culturesw-tab2 .swiper-pagination-fraction{
+		font-size: 12px;
+		bottom: 7px;
+	}
 	#culture-swiper2 .swiper-slide img{height: auto;}
 	/*#culture-swiper1 .swiper-wrapper{height: auto;}*/
 	#culture-swiper1 .swiper-slide {padding: 10px;}
 
 /*问巷环境*/
-	.ambient{padding: 0;}
+	.ambient{padding: 5px 0 0 0;}
 	.ambientswbox{width: 100%;}
 	#ambient-swiper1{margin-bottom: 0;}
 	#ambient-swiper1 .ambient-sw1-left{
@@ -989,6 +999,11 @@
 	#ambient-swiper1 p{
 		margin-left: 0;
 		width: 100%;
+	}
+	.ambientsw-tab2 .ambientsw-prev, .ambientsw-tab2 .ambientsw-next{font-size: 22px;}
+	.ambientsw-tab2 .swiper-pagination-fraction{
+		font-size: 12px;
+		bottom: 7px;
 	}
 
 /*问巷经营*/
@@ -1005,7 +1020,7 @@
 	.pagenav-list ul li a{font-size: 1.2rem;padding: 10px 0;}
 	.pagenav-list ul li b{font-size: 80px;}
 	.pagenav-list ul li span{font-size: 1.2rem;}
-	.bottomimg{padding: 0 0 5px 0;}
+	.bottomimg{padding: 5px 0;}
 	.bottomimg .showbox{width: 100%;}
 	#bottomimg-container1{margin-bottom: 10px;}
 	#bottomimg-container2{width: 60%;}
@@ -1016,43 +1031,48 @@
 	.bottomimgsw-prev{left:12%;}
 	.bottomimgsw-next{right:12%;}
 /*中式佳肴-咖啡-绿饮-美酒*/
-	.cuisine{padding: 0;}
+	.cuisine{padding: 5px 0 0 0;}
 	#cuisine-swiper1 .swiper-slide,#coffee-swiper1 .swiper-slide,#greentea-swiper1 .swiper-slide{
 		background: rgb(237,237,237);
 		padding: 20px;
 	}
-	.coffee{padding: 10px 0;}
+	.coffee{padding: 5px 0;}
 	.greentea{padding: 0;}
 	/*美酒*/
-	.foodwine{padding: 10px 0;}
+	.foodwine{padding: 5px 0;}
 	#foodwine-swiper1{
 		height: auto;
 		top:35%;
 		left:0;
 	}
+	.cuisinesw-tab2 .cuisinesw-prev, .cuisinesw-tab2 .cuisinesw-next, .greenteasw-tab2 .greenteasw-prev, .greenteasw-tab2 .greenteasw-next,.coffeesw-tab2 .coffeesw-prev, .coffeesw-tab2 .coffeesw-next,.foodwinesw-tab2 .foodwinesw-prev, .foodwinesw-tab2 .foodwinesw-next{font-size: 22px;}
+	.cuisinesw-tab2 .swiper-pagination-fraction, .greenteasw-tab2 .swiper-pagination-fraction,.coffeesw-tab2 .swiper-pagination-fraction,.foodwinesw-tab2 .swiper-pagination-fraction{
+		font-size: 12px;
+		bottom:7px;
+	}
 /*巷弄生活*/
-	.lifelist{padding: 35px 0 10px 0;}
+	.lifelist{padding: 5px 0 10px 0;}
 	.lifelist .lifeliswbox{
 		width: 100%;
 		padding-bottom: 30px;
 	}
 	.lifelistsw-tab1{
-		width: 25%;
+		width: 20%;
 		position: absolute;
 		left:37.5%;
-		font-size: 20px;
+		font-size: 12px;
 		line-height: 1;
 		top:auto;
 		bottom:0;
 	}
 	.lifelistsw-tab1 .swiper-pagination{
-		bottom: 4px;
+		bottom: 6px;
 	}
 	.lifelistsw-prev,.lifelistsw-next{
 		position: absolute;
 		bottom: 0;
 		cursor: pointer;
-		font-size: 24px;
+		font-size: 22px;
 		color: #000;
 		z-index: 15;
 	}

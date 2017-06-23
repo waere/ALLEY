@@ -13,7 +13,7 @@
     <meta name="description" content="问巷艺术餐厅" />
     <meta name="robots" content="index,follow">
     <link rel="shortcut icon" href="images/ALLEY.ico" type="image/x-icon" />
-	<title>问巷-合作品牌</title>
+	<title>ALLEY-合作品牌</title>
 	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/iconfont.css">

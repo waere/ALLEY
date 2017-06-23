@@ -13,7 +13,7 @@
     <meta name="description" content="问巷艺术餐厅" />
     <meta name="robots" content="index,follow">
     <link rel="shortcut icon" href="images/ALLEY.ico" type="image/x-icon" />
-	<title>问巷-首页</title>
+	<title>ALLEY-问巷首页</title>
 	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/iconfont.css">
@@ -269,6 +269,35 @@
 
 	<!-- 生态 -->
 	<div class="ecologybox">
+		<div class="ecolconterbox">
+			<div class="swiper-container ecoloswbox2" id="ecologyswiper2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
+						<h3>生态贵州</h3>
+						<i></i>
+						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
+						的餐饮美学庭院会所</p>
+					</div>
+					<div class="swiper-slide">
+						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
+						<h3>生态贵州</h3>
+						<i></i>
+						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
+						的餐饮美学庭院会所</p>
+					</div>
+					<div class="swiper-slide">
+						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
+						<h3>生态贵州</h3>
+						<i></i>
+						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
+						的餐饮美学庭院会所</p>
+					</div>
+				</div>				
+			</div>
+			<div class="ecolconter-next iconfont">&#xeb5b;</div>
+			<div class="ecolinkbtn"><a href="###">READ MORE</a></div>
+		</div>
 		<div class="swiper-container" id="ecologyswiper1">
 			<div class="swiper-wrapper">
 					<div class="swiper-slide">
@@ -300,40 +329,27 @@
 					</div>
 				</div>
 		</div>
-		<div class="ecolconterbox">
-			<div class="swiper-container ecoloswbox2" id="ecologyswiper2">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
-						<h3>生态贵州</h3>
-						<i></i>
-						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
-						的餐饮美学庭院会所</p>
-					</div>
-					<div class="swiper-slide">
-						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
-						<h3>生态贵州</h3>
-						<i></i>
-						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
-						的餐饮美学庭院会所</p>
-					</div>
-					<div class="swiper-slide">
-						<h2>ECOLOGICAL<br><span>FLAVOR</span></h2>
-						<h3>生态贵州</h3>
-						<i></i>
-						<p>问巷梅林店以生态黔味餐饮为主<br>融和艺术、美酒、茶品、咖啡、起舞、音乐为一体<br>
-						的餐饮美学庭院会所</p>
-					</div>
-				</div>				
-			</div>
-			<div class="ecolconter-next iconfont">&#xeb5b;</div>
-			<div class="ecolinkbtn"><a href="###">READ MORE</a></div>
-		</div>
 	</div>
 	<!-- 生态结束 -->
 
 	<!-- 问巷美酒 -->
 	<div class="winebox">
+		<div class="wineconter">
+			<h6 class="hidden-xs">#问巷美酒#</h6>
+			<h2>ALLEY <span>WINE</span></h2>
+			<div class="winetab">
+				<a class="thistab" href="javascript:void(0)">红酒</a><span> &nbsp;/&nbsp;</span>
+				<a href="javascript:void(0)">白酒</a><span> &nbsp;/&nbsp;</span>
+				<a href="javascript:void(0)">啤酒</a><span> &nbsp;/&nbsp;</span>
+				<a href="javascript:void(0)">果酒</a>
+			</div>
+			<!-- <i></i> -->
+			<p>
+				Life should be wasted on beautiful thigs<br>
+				<span>In The Alley Of Taste</span>
+			</p>
+			<a href="food.php#foodwine">READ MORE</a>
+		</div>
 		<div class="swiper-container" id="wineswiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide swiper-no-swiping">
@@ -373,22 +389,6 @@
 				    </picture>
 				</div>
 			</div>
-		</div>
-		<div class="wineconter">
-			<h6 class="hidden-xs">#问巷美酒#</h6>
-			<h2>ALLEY <span>WINE</span></h2>
-			<div class="winetab">
-				<a class="thistab" href="javascript:void(0)">红酒</a><span> &nbsp;/&nbsp;</span>
-				<a href="javascript:void(0)">白酒</a><span> &nbsp;/&nbsp;</span>
-				<a href="javascript:void(0)">啤酒</a><span> &nbsp;/&nbsp;</span>
-				<a href="javascript:void(0)">果酒</a>
-			</div>
-			<!-- <i></i> -->
-			<p>
-				Life should be wasted on beautiful thigs<br>
-				<span>In The Alley Of Taste</span>
-			</p>
-			<a href="food.php#foodwine">READ MORE</a>
 		</div>
 	</div>
 	<!-- 问巷美酒结束 -->

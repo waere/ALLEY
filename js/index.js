@@ -90,7 +90,7 @@ function mosertab(){
 var ecologyswiper1 = new Swiper('#ecologyswiper1',{
 	// effect : 'fade',
 	loop:true,
-	autoplay:3500
+	autoplay:5000
 });
 var ecologyswiper2 = new Swiper('#ecologyswiper2',{
 	loop:true,

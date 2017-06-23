@@ -1,10 +1,10 @@
 
 @font-face {font-family: "ALLEY";
-  src: url('iconfont.eot?t=1498099814965'); /* IE9*/
-  src: url('iconfont.eot?t=1498099814965#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1498099814965') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1498099814965') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1498099814965#ALLEY') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1498207282252'); /* IE9*/
+  src: url('iconfont.eot?t=1498207282252#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1498207282252') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1498207282252') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1498207282252#ALLEY') format('svg'); /* iOS 4.1- */
 }
 
 .ALLEY {
@@ -100,4 +100,6 @@
 .ALLEY-xihuan1:before { content: "\e600"; }
 
 .ALLEY-xihuan2:before { content: "\e606"; }
+
+.ALLEY-alley-logo:before { content: "\e65c"; }
 

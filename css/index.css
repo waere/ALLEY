@@ -724,7 +724,7 @@ html, body {
 	.sw-next, .sw-prev{background-size: 20px 20px;}
 	.sw-prev{left:0;}
 	.sw-next{right:0;}
-	.swiper-pagination{font-size: 14px;}
+	.swiper-pagination{font-size: 12px;}
 	.banerswtab{
 		width: 20%;
 		bottom:15px;
@@ -901,8 +901,8 @@ html, body {
 	}
 	.ecoloswbox2 .swiper-slide p{font-size: 13px;}
 	.ecolconter-next{
-		top: -60px;
-		left: 5px;
+		bottom: 0;
+		right: 10px;
 	}
 	.ecolconterbox .ecolinkbtn{width: 100%;}
 /*问巷美酒*/
