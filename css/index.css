@@ -25,12 +25,6 @@ html, body {
         text-align: center;
         font-size: 18px;
         background: #ccc;
-
-        /* Center slide text vertically */
-/*        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;*/
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
@@ -52,14 +46,12 @@ html, body {
 	height: auto;
 	overflow: hidden;
 	font-size: 0;
-	/*background: #000;*/
 }
 .swslide img{
 	position: relative;
 	top:0;
 	left:0;
 	width: 100%;
-	/*height: 100%;*/
 	border: 0;
 }
 .banerswtab{
@@ -74,7 +66,6 @@ html, body {
 	width: auto;
 	bottom:0;
 }
-/*.sw-next, .sw-prev{top:85%;}*/
 .sw-prev{left:0;}
 .sw-next{right:0;}
 .swiper-pagination{
@@ -199,7 +190,7 @@ html, body {
 	margin-bottom: 20px;
 }
 .act-conenter .cont1 p{
-	font-family: '新宋体';
+	font-family: '黑体';
 	line-height: 2;
 	font-size: 13px;
 }
@@ -341,7 +332,6 @@ html, body {
 	border-bottom: 2px solid #E50044;
 	color:#E50044;
 	font-weight: 700;
-	/*text-decoration: underline;*/
 }
 .moserbox .moserconre .mosertab i{
 	cursor: pointer;
@@ -382,6 +372,10 @@ html, body {
 .moserswbox .swvideo video{
 	object-fit: fill
 }
+.mose-prev,.mose-next{
+	width: 25px;
+	height: 38px;
+}
 
 /*生态*/
 .ecologybox{
@@ -398,7 +392,7 @@ html, body {
 	top:15%;
 	left: 12%;
 	background: #000;
-	z-index: 1;
+	z-index: 2;
 }
 .ecoloswbox2{
 	width: 360px;
@@ -500,13 +494,11 @@ html, body {
 .winebox .wineconter .winetab a{
 	display: inline-block;
 	color:#fff;
-	/*box-sizing:border-box;*/
 }
 .winebox .wineconter .winetab .thistab{
 	border-bottom: 2px solid #E50044;
 	color:#E50044;
 	font-weight: 700;
-	/*text-decoration: underline;*/
 }
 .winebox .wineconter i:after{
 	display: block;
@@ -534,6 +526,10 @@ html, body {
 .winebox .wineconter>a:hover{
 	background: #e50044;
 	border:1px solid #e50044;
+}
+.wine-prev,.wine-next{
+	width: 25px;
+	height: 38px;
 }
 /*产品速递*/
 .sudibox{
@@ -578,9 +574,7 @@ html, body {
 }
 .cpsdlist{
 	width: 100%;
-	/*height: 470px;*/
 	overflow:hidden;
-	/*overflow-x: scroll;*/
 }
 .cpsdlist ul{
 	font-size: 0;
@@ -783,7 +777,6 @@ html, body {
 		border: 1px solid #fff;
 		margin: 15px 0;
 	}
-	/*.swbox2{padding-top: 95%;}*/
 	.act-conenter>a{
 		width: 110px;
 		height: 35px;
@@ -845,7 +838,6 @@ html, body {
 	.moserbox .moserconre{
 		position: relative;
 		padding: 0 6%;
-		/*text-align: center;*/
 		width: 100%;
 		left: 0;
 	}
@@ -859,6 +851,7 @@ html, body {
 		margin-bottom: 10px;
 		border-bottom:2px solid #000;
 	}
+	.moserbox .moserconre .mosertab i{font-size: 24px;}
 	.moserbox .moserconre p{
 		padding-top: 10px;
 		text-align: left;
@@ -929,7 +922,6 @@ html, body {
 		margin-top: 10px;
 		margin-bottom: 20px;
 		font-size: 14px;
-		/*padding: 0 55px;*/
 	}
 	.winebox .wineconter p span{font-size: 12px;}
 /*产品速递*/
@@ -949,7 +941,10 @@ html, body {
 		top:-20%;
 		left:0;
 	}
-	.cpsdlist{overflow-x: scroll;}
+	.cpsdlist{
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
 	.cpsdlist ul li{width: 280px;}
 	.cpsdlist ul li img{width: 100%;}
 	.cpsdlist .cptitle{
@@ -964,7 +959,7 @@ html, body {
 	}
 	/*新闻速递*/
 	.newssd .news-contbox{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 		padding: 0;
 		height: 150px;
 	}

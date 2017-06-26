@@ -17,7 +17,6 @@
 }
 .tasbanconer h1{
 	font-family: futura;
-	/*font-weight: bold;*/
 	font-size: 80px;
 	color:#fff;
 }
@@ -125,7 +124,6 @@
 	width: 100%;
 	background: #fff;
 	overflow: hidden;
-	/*padding: 50px 0;*/
 }
 .cultureswbox{
 	width: 100%;
@@ -501,9 +499,10 @@
 .bottomimgsw-prev,.bottomimgsw-next{
 	position: absolute;
 	top:30%;
+	padding-top: 2px;
 	cursor:pointer;
 	color:#fff;
-	font-size: 25px;
+	font-size: 20px;
 	z-index: 10;
 	line-height: 1;
 	background: #e50045;
@@ -845,8 +844,6 @@
 }
 .brandpicsw-tab2{
 	position: relative;
-	/*width: 50%;*/
-	/*left:25%;*/
 	bottom: -20px;
 	z-index: 10;
 }
@@ -980,7 +977,6 @@
 		bottom: 7px;
 	}
 	#culture-swiper2 .swiper-slide img{height: auto;}
-	/*#culture-swiper1 .swiper-wrapper{height: auto;}*/
 	#culture-swiper1 .swiper-slide {padding: 10px;}
 
 /*问巷环境*/

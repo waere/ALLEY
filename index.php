@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="renderer" content="webkit">
@@ -263,6 +263,11 @@
 						</video>
 					</div>
 				</div>
+				<!-- 左右控件 -->
+				<div class="mose-tab visible-xs-block">
+					<div class="swiper-button-prev swiper-button-white mose-prev"></div>
+        			<div class="swiper-button-next swiper-button-white mose-next"></div>
+				</div>
 			</div>
 		</div>
 	<!-- 摩瑟结束 -->
@@ -343,7 +348,6 @@
 				<a href="javascript:void(0)">啤酒</a><span> &nbsp;/&nbsp;</span>
 				<a href="javascript:void(0)">果酒</a>
 			</div>
-			<!-- <i></i> -->
 			<p>
 				Life should be wasted on beautiful thigs<br>
 				<span>In The Alley Of Taste</span>
@@ -388,6 +392,11 @@
 						<img src="images/index/m-home-16.jpg" srcset="images/index/u27.jpg" alt="生态">
 				    </picture>
 				</div>
+			</div>
+			<!-- 左右控件 -->
+			<div class="mose-tab visible-xs-block">
+				<div class="swiper-button-prev swiper-button-white wine-prev"></div>
+    			<div class="swiper-button-next swiper-button-white wine-next"></div>
 			</div>
 		</div>
 	</div>

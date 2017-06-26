@@ -149,7 +149,6 @@
 	position: relative;
 	vertical-align:middle;
 	font-size: 36px;
-	/*background: url(../images/index/u164.png) no-repeat;*/
 }
 .navlist .nav-search .sear-btn i:after{
 	content: ".";
@@ -209,21 +208,14 @@
 	position: absolute;
 	right:60px;
 	top:25px;
-	/*width: 130%;*/
-	/*height: 60px;*/
 	font-size: 0;
 	z-index: 100;
 }
 .phone div{
 	display: inline-block;
 	vertical-align:middle;
-	/*width: 52px;
-	height: 52px;*/
 	color:#fff;
 	font-size: 60px;
-	/*border: 4px solid #fff;
-	border-radius: 15px;
-	background: url(../images/index/u97.png) no-repeat 5px 5px;*/
 }
 .phone p{
 	display: inline-block;
@@ -331,16 +323,15 @@
 }
 .botinfor ul li span{
 	display: inline-block;
-	// width: 15%;
 	font-size: 36px;
 	vertical-align: middle;
 	margin-right: 10px;
 }
 .botinfor ul li b{
 	display: inline-block;
-	// width: 85%;
 	font-weight: normal;
 	vertical-align: middle;
+	font-family: '微软雅黑';
 }
 .botinfor .weixin{
 	float: right;
@@ -372,7 +363,6 @@
 	padding-right: 2%;
 }
 .bottombox .social a{
-	/*display: inline-block;*/
 	margin:0 5px;
 	font-size: 38px;
 	color:#7e7e7e;
@@ -413,9 +403,6 @@
 		top:280px;
 	}
 	
-	.navlist ul li{
-		/*margin: 25px 0;*/
-	}
 	.navlist ul li a h5 {
 		font-size: 18px;
 	}
@@ -429,7 +416,6 @@
 	}
 
 	.navlist .nav-search{
-		/*width: 27%;*/
     	height: 53px;
     	margin-top: 0;
 	}
@@ -488,8 +474,6 @@
 		padding: 5% 0;
 	}
 	.navlist .nav-search{
-		/*position: absolute;*/
-		/*bottom: 0px;*/
 		margin-top: 0;
 	}
 	.navlist .nav-search .sear-btn{
@@ -537,8 +521,6 @@
 		top:10px;
 		margin: 0 3%;
 		padding-bottom: 15%;
-		/*background: #fff url(../images/u75_01.gif) no-repeat 50% 0;
-		background-size: 40%;*/
 	}
 	.navlist .home,.navlist .hider {bottom: 3%;}
 	.navlist .home img, .navlist .hider img{
@@ -566,7 +548,6 @@
 		color:#fff;
 		line-height: 1;
 	}
-	// .navlist .mob-nav-logo a img{width: 100%;}
 	.navlist .mob-nav-logo div{
 		margin-top: 8%;
 		color:#fff;
@@ -590,7 +571,6 @@
 		border: none;
 		overflow: hidden;
 	}
-	/*.navlist .firstlist{margin-top: 36%;}*/
 	.navlist .mob-nav li{
 		width: 50%;
 		height: 75%;
@@ -609,12 +589,7 @@
 		height: 10%;
 		margin-top: 0;
 	}
-	.navlist .nav-search .sear-btn{
-		/*width: 20px;
-		height: 20px;
-		background-size: 20px 20px;*/
-		font-size: 25px;
-	}
+	.navlist .nav-search .sear-btn{font-size: 25px;}
 	.navlist .nav-search .sear-btn i:after{
 		left: 16px;
     	top: 18px;

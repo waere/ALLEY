@@ -6,7 +6,6 @@ h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 li{list-style:none;}
 fieldset,img{border:0;}
 table{border-collapse:collapse;border-spacing:0;}
-/*q:before,q:after{content:"";}*/
 button,input,select,textarea{font-size:100%;}
 legend{color:#000;}
 small{font-size:12px;}
@@ -14,12 +13,9 @@ hr{border:none;height:1px;}
 a{text-decoration:none;}
 a:hover{text-decoration: none;}
 a:focus{text-decoration: none;}
-/*a:hover{text-decoration:underline;}*/
 .fl{float:left;}
 .fr{float: right;}
 .cle:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
-/*.cle{ display:inline-block;}*/
-/*.cle{ display:block;}*/
 .clear {clear: both;}
 
 .outside-box {

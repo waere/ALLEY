@@ -69,7 +69,20 @@ function TakeTab(){
 
 // 摩瑟
 // swiper
-var swiper3 = new Swiper('#swiper-container3',{});
+var swiper3 = new Swiper('#swiper-container3',{
+	nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    onSlideChangeEnd:function(swiper){
+		// 获取swiper当前活动块的index
+		$('.mosertab a').eq(swiper.activeIndex).addClass(' thistab').siblings('.mosertab a').removeClass(' thistab');
+		$('.videoplay').css({'color':'#fff'});
+		$('.swvideo video').trigger('pause');
+		if(swiper.activeIndex == 2){
+			$('.videoplay').css({'color':'#e50044'}).siblings('a').removeClass('thistab');
+			$('.swvideo video').trigger('play');
+		}
+	}
+});
 function mosertab(){
 	$('.mosertab').find('a').click(function(){
 		$(this).addClass('thistab').siblings('a').removeClass('thistab');
@@ -103,6 +116,12 @@ ecologyswiper2.params.control=ecologyswiper1;
 // 问巷美酒
 var wineswiper = new Swiper('#wineswiper',{
 	// loop:true,
+    nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	onSlideChangeEnd:function(swiper){
+		// 获取swiper当前活动块的index
+		$('.winetab a').eq(swiper.activeIndex).addClass(' thistab').siblings('.winetab a').removeClass(' thistab');
+	}
 })
 function winetab(){
 	$('.winetab').find('a').click(function(){
