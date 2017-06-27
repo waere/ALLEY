@@ -3,10 +3,10 @@
 				<div class="botnav cle">
 					<div class="bot-navli fl">
 						<ul>
-							<li><a href="###"><span class="iconfont">&#xe60b;</span>问巷美食</a></li>
-							<li><a href="###"><span class="iconfont">&#xe60a;</span>问巷美酒</a></li>
-							<li><a href="###"><span class="iconfont">&#xe609;</span>咖啡饮品</a></li>
-							<li><a href="###"><span class="iconfont">&#xe60c;</span>艺术活动</a></li>
+							<li><a href="taste.php"><span class="iconfont">&#xe60b;</span>问巷美食</a></li>
+							<li><a href="food.php#foodwine"><span class="iconfont">&#xe60a;</span>问巷美酒</a></li>
+							<li><a href="food.php#coffee"><span class="iconfont">&#xe609;</span>咖啡饮品</a></li>
+							<li><a href="life.php"><span class="iconfont">&#xe60c;</span>艺术活动</a></li>
 						</ul>
 					</div>
 					<!-- <div class="botphone fr">

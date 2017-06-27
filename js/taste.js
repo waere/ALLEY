@@ -1,6 +1,6 @@
 // 风情swiper
 var customssw1 = new Swiper('#customs-swiper1',{
-	// effect : 'fade',
+	effect : 'fade',
 	loop:true,
 	prevButton:'.customssw-prev',
 	nextButton:'.customssw-next',

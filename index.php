@@ -301,7 +301,7 @@
 				</div>				
 			</div>
 			<div class="ecolconter-next iconfont">&#xeb5b;</div>
-			<div class="ecolinkbtn"><a href="###">READ MORE</a></div>
+			<div class="ecolinkbtn"><a href="taste.php">READ MORE</a></div>
 		</div>
 		<div class="swiper-container" id="ecologyswiper1">
 			<div class="swiper-wrapper">
